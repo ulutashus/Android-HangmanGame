@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout
     android:id="@+id/allTable"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -79,7 +78,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/questionPanel"
-        android:layout_marginTop="@dimen/hangmanMarginVer"
+        android:layout_marginTop="@dimen/hangmanMarginTop"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -135,7 +134,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/hangmanAndScoreTable"
-        android:layout_marginTop="@dimen/hangmanMarginVer"
+        android:layout_marginTop="@dimen/hangmanMarginTop"
         android:gravity="center"
         android:visibility="gone">
 
@@ -201,307 +200,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/hangmanAndScoreTable"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/hangmanMarginVer"
+        android:layout_marginTop="@dimen/hangmanMarginTop"
         android:visibility="gone"/>
 
     <!-- Keyboard -->
-    <TableLayout
+    <GridView
         android:id="@+id/keyboard"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/Menu">
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="A"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="B"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="C"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Ç"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="D"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="E"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="F"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="G"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Ğ"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="H"
-                android:textSize="20dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="I"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="İ"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="J"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="K"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="L"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="M"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="N"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="O"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Ö"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="P"
-                android:textSize="20dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="R"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="S"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Ş"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="T"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="U"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Ü"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="V"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Y"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:onClick="keyBoardListener"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:text="Z"
-                android:textSize="20dp"/>
-
-            <Button
-                android:layout_height="match_parent"
-                android:layout_weight=".10"
-                android:clickable="false"/>
-        </TableRow>
-    </TableLayout>
-
-    <!-- Menu -->
-    <Button
-        android:id="@+id/Menu"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/keyboardHeight"
         android:layout_alignParentBottom="true"
-        android:onClick="menuListener"
-        android:text="Menü"/>
+        android:numColumns="8"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:gravity="center">
+    </GridView>
 </RelativeLayout>

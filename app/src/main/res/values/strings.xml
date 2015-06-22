@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Adam Asmaca</string>
-
+    <string name="alphabet">ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ</string>
     <string name="category_prompt">Soru kategorisi seçiniz</string>
+
     <string-array name="category_array">
         <item>Atasözü</item>
         <item>İsim</item>

@@ -10,15 +10,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.FrameLayout;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-public class PlayScreen extends Activity
+import java.util.ArrayList;
+
+import ulutashus.hangman.views.adapters.KeyboardAdapter;
+
+public class PlayScreen extends Activity implements View.OnClickListener
 {
     private RelativeLayout all_Table;
-    private TableLayout keyboard_Table;
+    private GridView keyboard_Layout;
     private TableLayout score_Table;
     private TextView word_Text;
     private TextView wordLength_Text;
@@ -76,6 +81,7 @@ public class PlayScreen extends Activity
     private void newGame()
     {
         relateXML();
+        populateButtons();
 
         game = new Question(gameType);
         points = new Point();
@@ -117,7 +123,7 @@ public class PlayScreen extends Activity
         setContentView(R.layout.activity_playscreen);
 
         all_Table = (RelativeLayout) findViewById(R.id.allTable);
-        keyboard_Table = (TableLayout) findViewById(R.id.keyboard);
+        keyboard_Layout = (GridView) findViewById(R.id.keyboard);
         score_Table = (TableLayout) findViewById(R.id.pointTable);
         word_Text = (TextView) findViewById(R.id.word);
         wordLength_Text = (TextView) findViewById(R.id.wordLength);
@@ -130,21 +136,6 @@ public class PlayScreen extends Activity
         high_Image = (ImageView) findViewById(R.id.rekor);
         chronometer = (Chronometer) findViewById(R.id.chronometer);
         continueGame_Button = (FrameLayout) findViewById(R.id.continueLayout);
-    }
-
-    /**
-     * Klavye
-     */
-    public void keyBoardListener(View v)
-    {
-        v.setClickable(false);
-        v.setEnabled(false);
-
-        Button button = (Button) v;
-
-        char ch = button.getText().charAt(0);
-        if (game.checkAnswer(ch)) rightAnswer(ch);
-        else wrongAnswer();
     }
 
     /**
@@ -196,7 +187,7 @@ public class PlayScreen extends Activity
         score_Table.setVisibility(TableLayout.VISIBLE);
         narrowTree_Image.setVisibility(Button.GONE);
         // klavye kaldiriliyor
-        keyboard_Table.setVisibility(TableLayout.GONE);
+        keyboard_Layout.setVisibility(TableLayout.GONE);
         // tebrik mesaji veriliyor
         gameMessage_Image.setImageResource(R.drawable.win);
         gameMessage_Image.setVisibility(ImageView.VISIBLE);
@@ -220,7 +211,7 @@ public class PlayScreen extends Activity
         }
         all_Table.setBackgroundDrawable(getResources().getDrawable(R.drawable.red));
         // klavye kaldiriliyor
-        keyboard_Table.setVisibility(TableLayout.GONE);
+        keyboard_Layout.setVisibility(TableLayout.GONE);
         // sorunun cevabi gosteriliyor
         word_Text.setText(game.getQuestion());
         // oyunu kaybetme mesaji veriliyor
@@ -260,5 +251,36 @@ public class PlayScreen extends Activity
             }
         }
         super.finish();
+    }
+
+    private void populateButtons()
+    {
+        String alphabet = getString(R.string.alphabet);
+        /* add buttons to gridview */
+        Button button = null;
+        ArrayList<Button> keyButtons = new ArrayList<Button>();
+        for (int i = 0; i < alphabet.length(); ++i)
+        {
+            button = new Button(this);
+            button.setText(alphabet.charAt(i) + "");
+            button.setPadding(0, 0, 0, 0);
+            button.setTextSize(25);
+            button.setOnClickListener(this);
+            keyButtons.add(button);
+        }
+        keyboard_Layout.setAdapter(new KeyboardAdapter(keyButtons));
+    }
+
+    @Override
+    public void onClick(View view)
+    {
+        view.setClickable(false);
+        view.setEnabled(false);
+
+        Button button = (Button) view;
+
+        char ch = button.getText().charAt(0);
+        if (game.checkAnswer(ch)) rightAnswer(ch);
+        else wrongAnswer();
     }
 }
