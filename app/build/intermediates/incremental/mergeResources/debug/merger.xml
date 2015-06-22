@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res"><file name="adama" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adama.png" qualifiers="hdpi" type="drawable"/><file name="adamb" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamb.png" qualifiers="hdpi" type="drawable"/><file name="adamc" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamc.png" qualifiers="hdpi" type="drawable"/><file name="adamd" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamd.png" qualifiers="hdpi" type="drawable"/><file name="adame" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adame.png" qualifiers="hdpi" type="drawable"/><file name="adamf" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamf.png" qualifiers="hdpi" type="drawable"/><file name="adamg" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamg.png" qualifiers="hdpi" type="drawable"/><file name="adamh" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamh.png" qualifiers="hdpi" type="drawable"/><file name="adami" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adami.png" qualifiers="hdpi" type="drawable"/><file name="adamj" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\adamj.png" qualifiers="hdpi" type="drawable"/><file name="background" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\background.png" qualifiers="hdpi" type="drawable"/><file name="black" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\black.png" qualifiers="hdpi" type="drawable"/><file name="cikis" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\cikis.png" qualifiers="hdpi" type="drawable"/><file name="cup" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\cup.png" qualifiers="hdpi" type="drawable"/><file name="devam" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\devam.png" qualifiers="hdpi" type="drawable"/><file name="gameover" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\gameover.png" qualifiers="hdpi" type="drawable"/><file name="green" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\green.png" qualifiers="hdpi" type="drawable"/><file name="highscores" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\highscores.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="red" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\red.png" qualifiers="hdpi" type="drawable"/><file name="rekor" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\rekor.png" qualifiers="hdpi" type="drawable"/><file name="tahta" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\tahta.png" qualifiers="hdpi" type="drawable"/><file name="win" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\win.png" qualifiers="hdpi" type="drawable"/><file name="yenioyun" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-hdpi\yenioyun.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi" type="drawable"/><file name="ic_launcher" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\values\strings.xml" qualifiers=""><string-array name="category_array">
+        <item>Atasözü</item>
+        <item>İsim</item>
+        <item>Şehir</item>
+        <item>Ülke</item>
+    </string-array><string-array name="ulkeler">
+        <item>AFGANİSTAN</item>
+		<item>ALMANYA</item>
+		<item>ANGOLA</item>
+		<item>ARJANTİN</item>
+		<item>ARNAVUTLUK</item>
+		<item>AVUSTRALYA</item>
+		<item>AVUSTURYA</item>
+		<item>BANGLADEŞ</item>
+		<item>BELÇİKA</item>
+		<item>BENİN</item>
+		<item>BEYAZ RUSYA</item>
+		<item>BİRLEŞİK ARAP EMİRLİKLERİ</item>
+		<item>BOLİVYA</item>
+		<item>BOSNA HERSEK</item>
+		<item>BREZİLYA</item>
+		<item>BULGARİSTAN</item>
+		<item>BURUNDİ</item>
+		<item>CEZAYİR</item>
+		<item>KOLOMBİYA</item>
+		<item>ÇAD</item>
+		<item>ÇEK CUMHURİYETİ</item>
+		<item>ÇİN</item>
+		<item>DANİMARKA</item>
+		<item>DOMİNİK CUMHURİYETİ</item>
+		<item>EKVADOR</item>
+		<item>EL SALVADOR</item>
+		<item>ENDONEZYA</item>
+		<item>ESTONYA</item>
+		<item>ETİYOPYA</item>
+		<item>FAS</item>
+		<item>FİJİ</item>
+		<item>FİLDİŞİ SAHİLİ</item>
+		<item>FİLİPİNLER</item>
+		<item>FİLİSTİN</item>
+		<item>FİNLANDİYA</item>
+		<item>GABON</item>
+		<item>GANA</item>
+		<item>GEORGİA</item>
+		<item>GİNE</item>
+		<item>GUATEMALA</item>
+		<item>GÜNEY AFRİKA</item>
+		<item>GÜNEY KORE</item>
+		<item>HAİTİ</item>
+		<item>HIRVATİSTAN</item>
+		<item>HİNDİSTAN</item>
+		<item>HOLLANDA</item>
+		<item>HONDURAS</item>
+		<item>HONG KONG</item>
+		<item>IRAK</item>
+		<item>İNGİLTERE</item>
+		<item>İRAN</item>
+		<item>İRLANDA</item>
+		<item>İSPANYA</item>
+		<item>İSVEÇ</item>
+		<item>İSVİÇRE</item>
+		<item>İTALYA</item>
+		<item>JAMAİKA</item>
+		<item>JAPONYA</item>
+		<item>KAMBOÇYA</item>
+		<item>KAMERUN</item>
+		<item>KANADA</item>
+		<item>KAZAKİSTAN</item>
+		<item>KENYA</item>
+		<item>KIRGIZİSTAN</item>
+		<item>KONGO</item>
+		<item>KOSTA RİKA</item>
+		<item>KUVEYT</item>
+		<item>KUZEY KORE</item>
+		<item>KÜBA</item>
+		<item>LETONYA</item>
+		<item>LİBYA</item>
+		<item>LİTVANYA</item>
+		<item>LÜBNAN</item>
+		<item>MACARİSTAN</item>
+		<item>MADAGASKAR</item>
+		<item>MAKEDONYA</item>
+		<item>MALEZYA</item>
+		<item>MALİ</item>
+		<item>MEKSİKA</item>
+		<item>MISIR</item>
+		<item>MOĞOLİSTAN</item>
+		<item>MOLDOVA</item>
+		<item>MORİTANYA</item>
+		<item>MOZAMBİK</item>
+		<item>NEPAL</item>
+		<item>NİJER</item>
+		<item>NİJERYA</item>
+		<item>NİKARAGUA</item>
+		<item>NORVEÇ</item>
+		<item>ÖZBEKİSTAN</item>
+		<item>PAKİSTAN</item>
+		<item>PANAMA</item>
+		<item>PARAGUAY</item>
+		<item>PERU</item>
+		<item>POLONYA</item>
+		<item>PORTEKİZ</item>
+		<item>PORTO RİKO</item>
+		<item>ROMANYA</item>
+		<item>RUANDA</item>
+		<item>RUSYA</item>
+		<item>SENEGAL</item>
+		<item>SIRBİSTAN</item>
+		<item>SİNGAPUR</item>
+		<item>SLOVAKYA</item>
+		<item>SLOVENYA</item>
+		<item>SOMALİ</item>
+		<item>SRİ LANKA</item>
+		<item>SUDAN</item>
+		<item>SURİYE</item>
+		<item>SUUDİ ARABİSTAN</item>
+		<item>ŞİLİ</item>
+		<item>TACİKİSTAN</item>
+		<item>TANZANYA</item>
+		<item>TAYLAND</item>
+		<item>TAYVAN</item>
+		<item>TOGO</item>
+		<item>TUNUS</item>
+		<item>TÜRKİYE</item>
+		<item>TÜRKMENİSTAN</item>
+		<item>UGANDA</item>
+		<item>UKRAYNA</item>
+		<item>UMMAN</item>
+		<item>URUGUAY</item>
+		<item>ÜRDÜN</item>
+		<item>VİETNAM</item>
+		<item>YEMEN</item>
+		<item>YENİ ZELANDA</item>
+		<item>ZAMBİYA</item>
+     </string-array><string-array name="atasozleri">
+		<item>ABA ALTINDA ER YATAR</item>
+		<item>ABA VAKTİ ABA YABA VAKTİ YABA ALAN YANILMAZ</item>
+		<item>ABANIN KADRİ YAĞMURDA BİLİNİR</item>
+		<item>ABDAL TEKKEDE HACI MEKKEDE BULUNUR</item>
+		<item>ABDAL ABDALA ÇATMAYINCA KASNAK BOYUNA GEÇMEZ</item>
+		<item>ABDAL ABDALIN NE ONDUĞUNU İSTER NE DE BULDUĞUNU</item>
+		<item>ABDAL ATA BİNİNCE BEY OLDUM SANIR ŞALGAM AŞA GİRİNCE YAĞ OLDUM SANIR</item>
+		<item>ABDAL DÜĞÜNDEN ÇOCUK OYUNDAN USANMAZ</item>
+		<item>ABDALA KAR YAĞIYOR DEMİŞLER TİTREMEYE HAZIRIM DEMİŞ</item>
+		<item>ABDALIN DOSTLUĞU KÖY GÖRÜNCEYE KADARDIR</item>
+		<item>ABDALIN KARNI DOYUNCA GÖZÜ PABUCUNDADIR</item>
+		<item>ABDALIN YAĞI ÇOK OLURSA GAH BORUSUNA ÇALAR GAH GERİSİNE</item>
+		<item>AÇ AT YOL ALMAZ AÇ İT AV OLMAZ</item>
+		<item>AÇ AMAN BİLMEZ ÇOCUK ZAMAN BİLMEZ</item>
+		<item>AÇ AYI OYNAMAZ</item>
+		<item>AÇ BIRAKMAZ HIRSIZ EDERSİN ÇOK SÖYLEME ARSIZ EDERSİN</item>
+		<item>AÇ DOYMAM TOK ACIKMAM SANIR</item>
+		<item>AÇ ELİNİ KARA SOKAR</item>
+		<item>AÇ GÖZÜNÜ AÇARLAR GÖZÜNÜ</item>
+		<item>AÇ KURT BİLE KOMŞUSUNU DALAMAZ</item>
+		<item>AÇ NE YEMEZ TOK NE DEMEZ</item>
+		<item>AÇ TAVUK KENDİNİ BUĞDAY AMBARINDA SANIR</item>
+		<item>AÇ TOKUN YÜZÜNE BAKMAKLA DOYMAZ</item>
+		<item>ACAR TAZI ÇULLU DA BELLİ OLUR ÇULSUZ DA</item>
+		<item>ACELE BİR AĞAÇTIR MEYVESİ PİŞMANLIK</item>
+		<item>ACELE GİDEN ECELE GİDER</item>
+		<item>ACELE İLE MENZİL ALINMAZ</item>
+		<item>ACELE İŞE ŞEYTAN KARIŞIR</item>
+		<item>ACELE YÜRÜYEN YOLDA KALIR</item>
+		<item>ACELECİ SİNEK SÜTE DÜŞER</item>
+		<item>ACEMİ KATIR KAPI ÖNÜNDE YÜK İNDİRİR</item>
+		<item>ACEMİ NALBANT GİBİ KAH NALINA VURUR KAH MIHINA</item>
+		<item>ACEMİ NALBANT KÜRT EŞEĞİNDE DENER KENDİNİ</item>
+		<item>ACEMİ NALBANT MESLEĞİ GAVUR EŞEĞİNDE ÖĞRENİRMİŞ</item>
+		<item>ACI SÖZ İNSANI DİNİNDEN TATLI SÖZ YILANI DELİĞİNDEN ÇIKARIR</item>
+		<item>ACI ACIYI KESER</item>
+		<item>ACI ACIYI KESER SU SANCIYI</item>
+		<item>ACI PATLICANI KIRAĞI ÇALMAZ</item>
+		<item>AÇIK AĞIZ AÇ KALMAZ</item>
+		<item>AÇIK YARAYA TUZ EKİLMEZ</item>
+		<item>AÇIK YERDE TEPECİK KENDİNİ DAĞ SANIR</item>
+		<item>ACIKAN DOYMAM SUSAYAN KANMAM SANIR</item>
+		<item>ACIKAN NE OLSA YER ACIYAN NE OLSA SÖYLER</item>
+		<item>ACIKLI BAŞTA AKIL OLMAZ</item>
+		<item>ACIKMIŞ KUDURMUŞTUR BETERDİR</item>
+		<item>AÇILAN SOLAR AĞLAYAN GÜLER</item>
+		<item>AÇIN GÖZÜN EKMEK TEKNESİNDEDİR</item>
+		<item>AÇIN KARNI DOYAR GÖZÜ DOYMAZ</item>
+		<item>ACINDIRIRSAN ARSIZ OLUR ACIKTIRIRSAN HIRSIZ OLUR</item>
+		<item>ACIYAN UYUMUŞ ACIKAN UYUMAMIŞ</item>
+		<item>AÇMA SIRRINI DOSTUNA ODA SÖYLER DOSTUNA</item>
+		<item>AÇTIRMA KUTUYU SÖYLETME KÖTÜYÜ</item>
+		<item>ADA BANA ADAYIM SANA</item>
+		<item>ADALET İLE ZULÜM BİR YERDE BARINMAZ</item>
+		<item>ADAM ADAM DENMEKLE ADAM OLMAZ</item>
+		<item>ADAM ADAM PEHLİVAN BAŞKA ADAM</item>
+		<item>ADAM ADAMA GEREK OLMASA HER BİRİ BİR DAĞ BAŞINDA OLURDU</item>
+		<item>ADAM ADAMA GEREK OLUR</item>
+		<item>ADAM ADAMA HER DAİM MUHTAÇ</item>
+		<item>ADAM ADAMA YÜK DEĞİL CAN GÖVDEYE MÜLK DEĞİL</item>
+		<item>ADAM ADAMDAN KORKMAZ UTANIR</item>
+		<item>ADAM ADAMDIR OLMASA DA PULU EŞEK EŞEKTİR OLMASA DA ÇULU</item>
+		<item>ADAM ADAMI BİR KERE ALDATIR</item>
+		<item>ADAM HACI MI OLUR ULAŞMAKLA MEKKEYE EŞEK DERVİŞ Mİ OLUR TAŞ ÇEKMEKLE TEKKEYE</item>
+		<item>ADAM İŞ BAŞINDA BELLİ OLUR</item>
+		<item>ADAM OLANA BİR SÖZ YETER</item>
+		<item>ADAM YANILA YANILA PEHLİVAN YENİLE YENİLE</item>
+		<item>ADAMAK KOLAY ÖDEMEK GÜÇTÜR</item>
+		<item>ADAMAKLA MAL TÜKENMEZ</item>
+		<item>ADAMIN AHMAĞI MALINI ÖVER</item>
+		<item>ADAMIN BAHTI KIZINA ÇEYİZ OLURMUŞ</item>
+		<item>ADAMIN İYİSİ ALIŞVERİŞTE BELLİ OLUR</item>
+		<item>ADAMIN İYİSİ İŞ BAŞINDA BELLİ OLUR</item>
+		<item>ADAMIN KÖTÜSÜ OLMAZ MEĞER ZÜĞÜRT OLA</item>
+		<item>ADAMIN YERE BAKANINDAN SUYUN SESSİZ AKANINDAN KORK</item>
+		<item>ADI ÇIKMIŞ DOKUZA İNMEZ SEKİZE</item>
+		<item>AĞAÇ DÜŞSE DE YAKININA YASLANIR</item>
+		<item>AĞAÇ KÖKÜNDEN YIKILIR</item>
+		<item>AĞAÇ NE KADAR UZASA GÖĞE ERMEZ</item>
+		<item>AĞAÇ YAPRAĞI İLE GÜZELDİR</item>
+		<item>AĞAÇ YAŞ İKEN EĞİLİR</item>
+		<item>AĞACA ÇIKAN KEÇİNİN DALA BAKAN AĞLAĞI OLUR</item>
+		<item>AĞACI KURT İNSANI DERT YER</item>
+		<item>AĞAÇTAN MAŞA OLMAZ</item>
+		<item>AĞILDA OĞLAK DOĞSA OVADA OTU BİTER</item>
+		<item>AĞIR GİDEN YOL ALIR HIZLI GİDEN YOLDA KALIR</item>
+		<item>AĞIR KAZAN GEÇ KAYNAR</item>
+		<item>AĞIR OL Kİ BEY DESİNLER</item>
+		<item>AĞIR TAŞ BATMAN DÖVER</item>
+		<item>AĞIR YONGAYI YEL KALDIRMAZ</item>
+		<item>AĞIZ YER YÜZ UTANIR</item>
+		<item>AĞLAMA ÖLÜ İÇİN AĞLA DİRİ İÇİN</item>
+		<item>AĞLAMAYAN ÇOCUĞA MEME VERMEZLER</item>
+		<item>AĞLARSA ANAM AĞLAR GERİSİ YALAN AĞLAR</item>
+		<item>AĞLATAN GÜLMEZ</item>
+		<item>AĞRIMAYAN BAŞIN SARGIYA İHTİYACI YOKTUR</item>
+		<item>AĞRISIZ BAŞ MEZARDA GEREK</item>
+		<item>AĞUSTOSTA GÖLGE KOVAN ZEMHERİDE KARNINI OVAR</item>
+		<item>AH ALAN ONMAZ</item>
+		<item>AHALİ İSTERSE PADİŞAHI TAHTTAN İNDİRİR</item>
+		<item>AHLATIN İYİSİNİ AYILAR YER</item>
+		<item>AHMAĞA YÜZ ABDALA SÖZ VERMEYE GELMEZ</item>
+		<item>AHMAK MİSAFİR EV SAHİBİNİ AĞIRLAR</item>
+		<item>AHMAK GELİN YENGEYİ HALAYIĞI SANIR</item>
+		<item>AHMAK İTİ YOL KOCATIR</item>
+		<item>AK AKÇE KARA GÜN İÇİNDİR</item>
+		<item>AK CURUN AKMAZSA KARA CURUN KOL GİBİ</item>
+		<item>AK GÜN AĞARTIR KARA GÜN KARARTIR</item>
+		<item>AK KÖPEĞİN PAMUK PAZARINA ZARARI VARDIR</item>
+		<item>AK KOYUN AK BACAĞINDAN KARA KOYUN KARA BACAĞINDAN ASILIR</item>
+		<item>AK KOYUN KARA KOYUN GEÇİT BAŞINDA BELLİ OLUR</item>
+		<item>AK KOYUNU GÖREN İÇİ DOLU YAĞ SANIR</item>
+		<item>AK KOYUNUN KARA KUZUSU DA OLUR</item>
+		<item>AK ŞEKER KARA ŞEKER BİR DAMAR SOYA ÇEKER</item>
+		<item>AKACAK KAN DAMARDA DURMAZ</item>
+		<item>AKAN ÇAY HER ZAMAN KÜTÜK GETİRMEZ</item>
+		<item>AKAN SU YOSUN TUTMAZ</item>
+		<item>AKAN SUYA İNANMA EL OĞLUNA GÜVENME</item>
+		<item>AKARA KOKARA BAKMA ÇUVALA GİRENE BAK</item>
+		<item>AKARSU ÇUKURUNU KENDİ KAZAR</item>
+		<item>AKARSUYA İNANMA ELOĞLUNA DAYANMA</item>
+		<item>AKÇA AKIL ÖĞRETİR DON YÜRÜYÜŞ</item>
+		<item>AKÇANIN İYİSİ KESEDE DURAN BAHÇENİN İYİSİ EVE YAKIN OLAN</item>
+		<item>AKI KARASI GEÇİTTE BELLİ OLUR</item>
+		<item>AKIL ADAMA SERMAYE</item>
+		<item>AKIL AKILDAN ÜSTÜNDÜR</item>
+		<item>AKIL İÇİN YOL BİRDİR</item>
+		<item>AKIL KİŞİYE SERMAYEDİR</item>
+		<item>AKIL OLMAYINCA NE YAPSIN SAKAL</item>
+		<item>AKIL ORTAK ORTAK MAL ORTAĞI KAYPAK</item>
+		<item>AKIL PARA İLE SATILMAZ</item>
+		<item>AKIL YAŞTA DEĞİL BAŞTADIR</item>
+		<item>AKIL YİĞİDE SERMAYEDİR</item>
+		<item>AKILLARI PAZARA ÇIKARTMIŞLAR HERKES KENDİ AKLINI BEĞENMİŞ</item>
+		<item>AKILLI DÜŞMAN AKILSIZ DOSTTAN HAYIRLIDIR</item>
+		<item>AKILLI DÜŞÜNÜNCEYE KADAR DELİ OĞLUNU EVERİR</item>
+		<item>AKILLI HIRSIZ ŞAŞKIN EV SAHİBİNİ BASTIRIR</item>
+		<item>AKILLI KÖPRÜ ARAYINCAYA DEK DELİ SUYU GEÇER</item>
+		<item>AKILLI OLSA HER SAKALLI KİŞİ SAKALLILARA DANIŞIRLARDI HER İŞİ</item>
+		<item>AKILLI SÖYLEMEDEN DÜŞÜNÜR AKILSIZ DÜŞÜNMEDEN SÖYLER</item>
+		<item>AKILLIYI ARKADA TUTMA AKILSIZI KILAVUZ ETME</item>
+		<item>AKILSIZ BAŞIN ZAHMETİNİ AYAKLAR ÇEKER</item>
+		<item>AKILSIZ İTİ YOL KOCATIR</item>
+		<item>AKILSIZ KASABIN GERİSİNE KAÇAR MASADI</item>
+		<item>AKINTIYA KÜREK ÇEKİLMEZ</item>
+		<item>AKLA GELMEYEN BAŞA GELİR</item>
+		<item>AKLIN YOLU BİRDİR</item>
+		<item>AKLINA GELENİ İŞLEME HER AĞACI TAŞLAMA</item>
+		<item>AKMASA DA DAMLAR</item>
+		<item>AKRABA İLE YE İÇ ALIŞVERİŞ ETME</item>
+		<item>AKRABANIN AKRABAYA AKREP ETMEZ ETTİĞİNİ</item>
+		<item>AKSAK EŞEKLE YÜKSEK DAĞA ÇIKILMAZ</item>
+		<item>AKŞAMA KARŞI GİTME TANA KARŞI YATMA</item>
+		<item>AKŞAMIN HAYRINDAN SABAHIN ŞERRİ YEĞDİR</item>
+		<item>AKTAN KARA KALKTI MI</item>
+		<item>AL GİYEN ALDANMAZ</item>
+		<item>AL ELMAYA TAŞ ATAN ÇOK OLUR</item>
+		<item>AL GÖMLEK GİZLENEMEZ</item>
+		<item>AL GÜNÜNDE AL VER GÜNÜNDE VER</item>
+		<item>AL İLE ASLAN TUTULUR GÜÇ İLE SIÇAN TUTULMAZ</item>
+		<item>AL KAŞAĞIYI GİR AHIRA YARASI OLAN GOCUNSUN</item>
+		<item>AL MALIN İYİSİNİ ÇEKME KAYGISINI</item>
+		<item>ALA BAKAN İKİ BAKAR</item>
+		<item>ALA KEÇİ HER VAKİT PÜSKÜLLÜ OĞLAK DOĞURMAZ</item>
+		<item>ALACAĞIN OLSUN DA ALAKARGADA OLSUN</item>
+		<item>ALACAKLA VERECEK ÖDENMEZ</item>
+		<item>ALÇAK UÇAK YÜCE KONAR YÜCE UÇAN ALÇAK KONUR</item>
+		<item>ALÇAK YER YİĞİDİ HOR GÖSTERİR</item>
+		<item>ALÇAK YERDE YATMA SEL ALIR YÜKSEK YERDE YATMA YEL ALIR</item>
+		<item>ALEME CELLAT LAZIM SENİN OLMAN NE LAZIM</item>
+		<item>ALET İŞLER EL ÖVÜNÜR</item>
+		<item>ALİM UNUTMUŞ KALEM UNUTMAMIŞ</item>
+		<item>ALIŞMIŞ KUDURMUŞTAN BETERDİR</item>
+		<item>ALLAH BALMUMU YAKANA BALMUMU YAĞ MUMU YAKANA YAĞ MUMU VERİR</item>
+		<item>ALLAH BİLİR AMA KUL DA SEZER</item>
+		<item>ALLAH BİR KAPIYI KAPATIRSA ÖTEKİNİ AÇAR</item>
+		<item>ALLAH DAĞINA GÖRE KAR VERİR</item>
+		<item>ALLAH DOĞRUNUN YARDIMCISIDIR</item>
+		<item>ALLAH DOKUZDA VERDİĞİNİ SEKİZDE ALMAZ</item>
+		<item>ALLAH FUKARAYI SEVİNDİRMEK İSTERSE ÖNCE EŞEĞİNİ YİTİRTİR SONRA BULDURUR</item>
+		<item>ALLAH GÜMÜŞ KAPIYI KAPARSA ALTIN KAPIYI AÇAR</item>
+		<item>ALLAH İSTERSE BİR KULUN İŞİNİ MERMERE GEÇİRİR DİŞİNİ İSTEMEZSE İŞİNİ MUHALLEBİ YERKEN KIRAR DİŞİNİ</item>
+		<item>ALLAH KARDEŞİ KARDEŞ YARATMIŞ KESESİNİ AYRI YARATMIŞ</item>
+		<item>ALLAH KULUNDAN GEÇMEZ</item>
+		<item>ALLAH KULUNU KISMETİ İLE YARATIR</item>
+		<item>ALLAH SABIRLI KULUNU SEVER</item>
+		<item>ALLAH SAĞ ELİ SOL ELE MUHTAÇ ETMESİN</item>
+		<item>ALLAH SEVDİĞİNE DERT VERİR</item>
+		<item>ALLAH SON GÜRLÜĞÜ VERSİN</item>
+		<item>ALLAH UÇAMAYAN KUŞA ALÇACIK DAL VERİR</item>
+		<item>ALLAH VERİNCE KİMİN OĞLU KİMİN KIZI DEMEZ</item>
+		<item>ALLAH VERİRSE EL GETİRİR SEL GETİRİR YEL GETİRİR</item>
+		<item>ALLAHIN BİLDİĞİ KULDAN SAKLANMAZ</item>
+		<item>ALLAHIN ONDURMADIĞINI PEYGAMBER SOPA İLE KOVAR</item>
+		<item>ALLAHTAN UMUT KESİLMEZ</item>
+		<item>ALLI YELEK PULLU YELEK GÖMLEK YOK CANFES NEYE GEREK</item>
+		<item>ALMA ALI SAT YAĞIZI BİN DORUYA BESLE KIRI</item>
+		<item>ALMA DELİNİN KIZINI SOYA ÇEKER</item>
+		<item>ALMA MAZLUMUN AHINI ÇIKAR AHESTE AHESTE</item>
+		<item>ALMA SOYSUZUN KIZINI SÜRER ANASI İZİNİ</item>
+		<item>ALMADAN VERMEK ALLAHA MAHSUS</item>
+		<item>ALMADIĞIN HAYVANI KUYRUĞUNDAN TUTMA</item>
+		<item>ALTI OLUR YEDİ OLUR HEP ALLAHIN DEDİĞİ OLUR</item>
+		<item>ALTIN ANAHTAR HER KAPIYI AÇAR</item>
+		<item>ALTIN ELİ BIÇAK KESMEZ</item>
+		<item>ALTIN EŞİN GÜMÜŞ EŞİĞE MUHTAÇ OLUR</item>
+		<item>ALTIN YERE DÜŞMEKLE PUL OLMAZ</item>
+		<item>AMAN DİYENE KILIÇ KALKMAZ</item>
+		<item>ANA KIZINA TAHT KURAR KIZ BAHTI KOCADAN ARAR</item>
+		<item>ANA GİBİ YAR BAĞDAT GİBİ DİYAR OLMAZ</item>
+		<item>ANA İLE KIZ HELVA İLE KOZ</item>
+		<item>ANANIN ÇIKTIĞI DALA KIZI SALINCAK KURAR</item>
+		<item>ANANIN BAHTI KIZINA</item>
+		<item>ANASINA BAK KIZINI AL KENARINA BAK BEZİNİ AL</item>
+		<item>ANLAYANA SİVRİSİNEK SAZ ANLAMAYANA DAVUL ZURNA AZ</item>
+		<item>AR DÜNYASI DEĞİL KAR DÜNYASI</item>
+		<item>ARABA DEVRİLİNCE YOL GÖSTEREN ÇOK OLUR</item>
+		<item>ARABA İLE TAVŞAN AVLANMAZ</item>
+		<item>ARABANIN ÖN TEKERİ NEREDEN GEÇERSE ARKA TEKERİ DE ORADAN GEÇER</item>
+		<item>ARAP ELİ ÖPMEK DUDAK KARARTMAZ</item>
+		<item>ARAYAN BELASINI DA DEVASINI DA BULUR</item>
+		<item>ARAYAN BULUR İNLEYEN ÖLÜR</item>
+		<item>AREFE GÜNÜ YALAN SÖYLEYENİN BAYRAM GÜNÜ YÜZÜ KARA ÇIKAR</item>
+		<item>ARI BAL ALACAK ÇİÇEĞİ BİLİR</item>
+		<item>ARI BAL YAPACAK ÇİÇEĞİ BİLİR</item>
+		<item>ARI KAHRINI ÇEKMEYEN BALIN KADRİNİ NE BİLİR</item>
+		<item>ARI SATMIŞ NAMUSU TELLALA VERMİŞ</item>
+		<item>ARI KIZDIRANI SOKAR</item>
+		<item>ARIK ÖKÜZE BIÇAK ÇALINMAZ</item>
+		<item>ARKADAŞ DEDİĞİNİN GÖLGESİNDE SUÇ İŞLENİR</item>
+		<item>ARKADAŞINI SÖYLE Kİ SANA KİM OLDUĞUNU SÖYLEYEYİM</item>
+		<item>ARKALI İT KURDU BOĞAR</item>
+		<item>ARMUDU SAPIYLA ÜZÜMÜ ÇÖPÜYLE PEKMEZİ KÜPÜYLE</item>
+		<item>ARMUT PİŞ AĞZIMA DÜŞ</item>
+		<item>ARMUDUN İYİSİNİ AYILAR YER</item>
+		<item>ARPA EKEN BUĞDAY BİÇMEZ</item>
+		<item>ARPA EKEN DARI BİÇMEZ</item>
+		<item>ARPA EKİP BUĞDAY BEKLEME</item>
+		<item>ARSIZIN YÜZÜNE TÜKÜRMÜŞLER YAĞMUR YAĞIYOR DEMİŞ</item>
+		<item>ASLAN YATAĞINDAN BELLİDİR</item>
+		<item>AŞ KAŞIK İLE İŞ KEŞİK İLE</item>
+		<item>AŞ SABAHIN İŞ SABAHIN</item>
+		<item>AŞ TAŞINCA KEPÇEYE PAHA OLMAZ</item>
+		<item>AŞAĞI TÜKÜRSEN SAKAL YUKARI TÜKÜRSEN BIYIK</item>
+		<item>AŞAĞIDAN ÇIKARSA KIŞA YUKARIDAN ÇIKARSA BOŞA</item>
+		<item>AŞIĞA BAĞDAT SORULMAZ</item>
+		<item>AŞIK KALEMİ KÖR DÖRT YANINI DUVAR SANIR</item>
+		<item>ASİL AZMAZ BAL KOKMAZ</item>
+		<item>ASİL AZMAZ BAL KOKMAZ KOKARSA YAĞ KOKAR ONUNDA ASLI AYRANDIR</item>
+		<item>ASILMIŞ ADAMIN EVİNDE İPTEN SÖZ EDİLMEZ</item>
+		<item>AŞINI EŞİNİ İŞİNİ BİL</item>
+		<item>AŞK OLMAYINCA MEŞK OLMAZ</item>
+		<item>ASLAN YATAĞINDAN ŞAHAN OTURAĞINDAN BELLİ OLUR</item>
+		<item>ASLAN YATTIĞI YERDEN BELLİ OLUR</item>
+		<item>ASLANDAN KORKULUR BAĞLI BİLE OLSA</item>
+		<item>ASLI NEYSE NESLİ ODUR</item>
+		<item>ASLINA ÇEKMEYEN HARAMZADEDİR</item>
+		<item>ASLINDA OLAN TIRNAĞINA GETİRİR</item>
+		<item>ASLINI İNKAR EDEN HARAMZADEDİR</item>
+		<item>ASLINI İNKAR EDENİN NESLİ GEVŞEK OLUR</item>
+		<item>AT ADIMINA GÖRE DEĞİL ADAMINA GÖRE YÜRÜR</item>
+		<item>AT ALIRSAN YAZIN DEVE ALIRSAN GÜZÜN AVRAT ALIRSAN GEZİN HA GEZİN</item>
+		<item>AT BİNENİN KILIÇ KUŞANANIN</item>
+		<item>AT BİNİCİSİNİ TANIR</item>
+		<item>AT BİR DİZGİNDE ÖKÜZ BİR ÇİZİDE BELLİ OLUR</item>
+		<item>AT GÖRMEDİYSEN BOKUNDAN DA MI ATLAMADIN</item>
+		<item>AT İLE AVRAT YİĞİDİN İKBALİNDENDİR</item>
+		<item>AT KARNINDAN YİĞİT BURNUNDAN BELLİDİR</item>
+		<item>AT OLACAK TAY YÜRÜYÜŞÜNDEN BELLİ OLUR</item>
+		<item>AT ÖLÜR MEYDAN KALIR YİĞİT ÖLÜR ŞAN KALIR</item>
+		<item>AT ÖLÜR İTLERE BAYRAM OLUR</item>
+		<item>AT SAHİBİNE GÖRE KİŞNER</item>
+		<item>AT VER HASIM OL KIZ VER HISIM OL</item>
+		<item>AT YEDİ GÜNDE İT YEDİĞİ GÜNDE UNUTUR</item>
+		<item>AT YİĞİDİN YOLDAŞIDIR</item>
+		<item>AT AVRAT ÖMRÜ UZATIR</item>
+		<item>ATA BİNMEK BİR AYIP İNMEK İKİ AYIP</item>
+		<item>ATA EĞER GEREK EĞERE ER GEREK</item>
+		<item>ATA ET İTE OT VERİLMEZ</item>
+		<item>ATASÖZÜ TUTMAYAN ULUYA KALIR</item>
+		<item>ATASINI TANIMAYAN ALLAHINI TANIMAZ</item>
+		<item>ATEŞ DÜŞTÜĞÜ YERİ YAKAR</item>
+		<item>ATEŞ OLMAYAN YERDEN DUMAN ÇIKMAZ</item>
+		<item>ATEŞLE BARUT BİR YERDE DURMAZ</item>
+		<item>ATI ALAN ÜSKÜDARI GEÇTİ</item>
+		<item>ATILAN OK GERİ DÖNMEZ</item>
+		<item>ATIMIN ANLI SAKAR LAKABINI ELE TAKAR</item>
+		<item>ATIN BAHTSIZI ARABAYA DÜŞER</item>
+		<item>ATIN İYİSİ ARKADAN GELMEZ</item>
+		<item>ATIN İYİSİNE DORU YİĞİDİN İYİSİNE DELİ DERLER</item>
+		<item>ATIN ÖLÜMÜ ARPADAN OLSUN</item>
+		<item>ATLAR TEPİŞİR OLAN EŞEKLERE OLUR</item>
+		<item>ATLAR TEPİŞİRKEN ARADA EŞEKLER EZİLİR</item>
+		<item>ATLASA KIL YAPIŞMAZ</item>
+		<item>ATLI İTLİ SIĞMIŞ BİR ÇOCUK SIĞMAMIŞ</item>
+		<item>ATLIYA SAAT OLMAZ</item>
+		<item>ATLIYA SELAM KELAM EŞEKLİYE SONRA YİNE GELEM</item>
+		<item>ATMAYA NİYETİ OLMAYAN KÜRT TAŞIN BÜYÜĞÜNE SARILIR</item>
+		<item>ATTAN DÜŞEN ÖLMEZ EŞEKTEN DÜŞEN ÖLÜR</item>
+		<item>ATTAN DÜŞENE YORGAN DÖŞEK EŞEKTEN DÜŞENE KAZMA KÜREK</item>
+		<item>ATTAN İNDİ EŞEĞE BİNDİ</item>
+		<item>ATTIĞIN TAŞ ÜRKÜTTÜĞÜN KUŞA DEĞMEZ</item>
+		<item>AVA GELMEZ KUŞ OLMAZ BAŞA GELMEZ İŞ OLMAZ</item>
+		<item>AVA GİDEN AVLANIR</item>
+		<item>AVCI NE KADAR HİLE BİLSE AYI O KADAR YOL BİLİR</item>
+		<item>AVRADI ER ZAPT ETMEZ AR ZAPT EDER</item>
+		<item>AVRADIN DOLAŞIĞI AKŞAMDAN SABAHA KOR BULAŞIĞI</item>
+		<item>AVRAT VAR EV YAPAR AVRAT VAR EV YIKAR</item>
+		<item>AY BOZMAZ SÜT KOKMAZ KOKARSA AYRAN KOKAR ÇÜNKÜ ASLI SÜTTÜR</item>
+		<item>AY BULUTTAN ÇIKSIN DA GÖR AYVA TÜYÜNÜ ATSIN DA GÖR</item>
+		<item>AY IŞIĞINDA CEVİZ SİLKİNMEZ</item>
+		<item>AYAĞA DEĞMEDİK TAŞ OLMAZ BAŞA GELMEDİK İŞ OLMAZ</item>
+		<item>AYAĞI YÜRÜTEN BAŞTIR</item>
+		<item>AYAĞIN SIĞMAYACAĞI YERE BAŞ SOKULMAZ</item>
+		<item>AYAĞINI SICAK TUT BAŞINI SERİN GÖNLÜNÜ FERAH TUT DÜŞÜNME DERİN</item>
+		<item>AYAĞINI YORGANINA GÖRE UZAT</item>
+		<item>AYAKLAR ISLANMADAN BALIK TUTULMAZ</item>
+		<item>AYDAN GELEN HALI ÜSTÜNE GÜNDE GELEN KÜL ÜSTÜNE</item>
+		<item>AYI ÇOCUKLARINI BÜYÜTMÜŞ DURU SU İÇMEYE VAKTİ OLMAMIŞ</item>
+		<item>AYI GÖRMEDEN BAYRAM ETME</item>
+		<item>AYI YAVRUSUNU SEVERKEN ÖLDÜRÜRMÜŞ</item>
+		<item>AYIN ON BEŞİ KARANLIK ON BEŞİ AYDINLIKTIR</item>
+		<item>AYIPSIZ YAR ARAYAN YARSIZ KALIR</item>
+		<item>AYRANIM EKŞİDİR DİYEN OLMAZ</item>
+		<item>AYVAZ KASAP HEPSİ BİR HESAP</item>
+		<item>AZ KAZANAN ÇOK KAZANIR ÇOK KAZANAN HİÇ KAZANIR</item>
+		<item>AZ MENFAAT ÇOK ZARARA MAL OLUR</item>
+		<item>AZ SABIRDA ÇOK KERAMET VARDIR</item>
+		<item>AZ SÖYLE ÇOK DİNLE</item>
+		<item>AZ TAMAH ÇOK ZİYAN GETİRİR</item>
+		<item>AZ VEREN CANDAN ÇOK VEREN MALDAN</item>
+		<item>AZ YAŞA UZ YAŞA AKIBET GELECEK BAŞA</item>
+		<item>AZ YETMEZ ÇOK ARTMAZ</item>
+		<item>AZA DEMİŞLER NEREYE ÇOĞUN YANINA DEMİŞ</item>
+		<item>AZA KANAAT ETMEYEN ÇOĞU HİÇ BULAMAZ</item>
+		<item>AZAN MEVLASINI DA BULUR BELASINI DA</item>
+		<item>AZI BİLMEYEN ÇOĞU HİÇ BİLMEZ</item>
+		<item>AZI KARAR ÇOĞU ZARAR</item>
+		<item>AZICIK AŞIM KAYGISIZ BAŞIM</item>
+		<item>AZIKSIZ YOLA ÇIKANIN İKİ GÖZÜ EL TORBASINDA OLUR</item>
+		<item>BABA OĞLUNA BİR BAĞ BAĞIŞLAMIŞ OĞUL BABASINA BİR SALKIM ÜZÜM VERMEMİŞ</item>
+		<item>BABA HİMMET OĞUL HİZMET</item>
+		<item>BABA KORUK YER OĞLUNUN DİŞİ KAMAŞIR</item>
+		<item>BABA MALI TEZ TÜKERİR EVLAT GEREK KAZANA</item>
+		<item>BABASINDAN MAL KALAN MERTEĞİ İÇİNDEN BİTMİŞ SANIR</item>
+		<item>BACA EĞRİ DE OLSA DUMAN DOĞRU ÇIKAR</item>
+		<item>BAĞ BAYIRDA TARLA ÇAYIRDA</item>
+		<item>BAĞA BAK ÜZÜM OLSUN YEMEYE YÜZÜN OLSUN</item>
+		<item>BAĞI AĞLAYANIN YÜZÜ GÜLER</item>
+		<item>BAĞLI KOYUN YERİNDE OTLAR</item>
+		<item>BAKARSAN BAĞ BAKMAZSAN DAĞ OLUR</item>
+		<item>BAKMAKLA USTA OLUNSA KÖPEKLER KASAP OLURDU</item>
+		<item>BAL BAL DEMEKLE AĞIZ TATLANMAZ</item>
+		<item>BAL TUTAN PARMAĞINI YALAR</item>
+		<item>BALI DİBİNDEN YAĞI YÜZÜNDEN</item>
+		<item>BALIK AĞA GİRDİKTEN SONRA AKLI BAŞINA GELİR</item>
+		<item>BALIK BAŞTAN AVLANIR</item>
+		<item>BALIK BAŞTAN KOKAR</item>
+		<item>BALTA DEĞMEDİK AĞAÇ OLMAZ</item>
+		<item>BANA ARKADAŞINI SÖYLE SANA KİM OLDUĞUNU SÖYLEYEYİM</item>
+		<item>BANA BENDEN HER NE OLURSA BAŞIM RAHAT BULUR DİLİM SUSARSA</item>
+		<item>BANA DOKUNMAYAN YILAN BİN YAŞASIN</item>
+		<item>BAŞ BAŞA BAĞLI BAŞTA ŞERİATA</item>
+		<item>BAŞ BAŞA VERMEYİNCE TAŞ YERİNDEN KALKMAZ</item>
+		<item>BAŞ DİLLE TARTILIR</item>
+		<item>BAŞ KES YAŞ KESME</item>
+		<item>BAŞ NEREYE GİDERSE AYAKTA ORAYA GİDER</item>
+		<item>BAŞ YASTIĞI BAŞ DERDİNİ BİLMEZ</item>
+		<item>BAŞA GELEN ÇEKİLİR</item>
+		<item>BAŞA GELMEYİNCE BİLİNMEZ</item>
+		<item>BAŞINI ACEMİ BERBERE TESLİM EDEN PAMUĞUNU CEBİNDE TAŞISIN</item>
+		<item>BASKIN BASANINDIR</item>
+		<item>BASKISIZ YONGAYI YEL ALIR YEL ALMAZSA SEL ALIR</item>
+		<item>BAZ BAZLA KAZ KAZLA KEL TAVUK TOPAL HOROZLA</item>
+		<item>BEDAVA SİRKE BALDAN TATLIDIR</item>
+		<item>BELA GELİYORUM DEMEZ</item>
+		<item>BELEŞ ATIN DİŞİNE BAKILMAZ</item>
+		<item>BEŞ PARMAĞIN BEŞİ BİR DEĞİL</item>
+		<item>BESLE KARGAYI OYSUN GÖZÜNÜ</item>
+		<item>BETERİN BETERİ VARDIR</item>
+		<item>BIÇAĞI KESTİREN KENDİ YÜZÜ SUYU İNSANI SEVDİREN KENDİ HUYU</item>
+		<item>BIÇAK YARASI GEÇER DİL YARASI GEÇMEZ</item>
+		<item>BİLEN BİLİR BİLEN ASLI VAR SANIR</item>
+		<item>BİLMEDİK AŞ YA KARIN AĞRITIR YA BAŞ</item>
+		<item>BİLMEMEK AYIP DEĞİL SORMAMAK AYIPTIR</item>
+		<item>BİN BİLSEN DE BİR BİLENE DANIŞ</item>
+		<item>BİN DOST AZ BİR DÜŞMAN ÇOK</item>
+		<item>BİN MERAK BİR BORÇ ÖDEMEZ</item>
+		<item>BİN NASİHATTEN BİR MUSİBET YEĞDİR</item>
+		<item>BİN ÖLÇÜP BİR BİÇMELİ</item>
+		<item>BİN TASA BİR BORÇ ÖDEMEZ</item>
+		<item>BİR ELİNİN VERDİĞİNİ ÖBÜR ELİN GÖRMESİN</item>
+		<item>BİR ADAMA KIRK GÜN DELİ DERSEN DELİ OLUR</item>
+		<item>BİR ADAMIN ADI ÇIKACAĞINA CANI ÇIKSIN</item>
+		<item>BİR AĞIZDAN ÇIKAR BİN AĞIZA YAYILIR</item>
+		<item>BİR AHIRDA ATDA BULUNUR EŞEKDE</item>
+		<item>BİR BAŞ SOĞAN BİR KAZANI KOKUTUR</item>
+		<item>BİR BULUTLA KIŞ OLMAZ</item>
+		<item>BİR ÇÖPLÜKTE İKİ HOROZ ÖTMEZ</item>
+		<item>BİR DELİ KUYUYA BİR TAŞ ATMIŞ KIRK AKILLI ÇIKARAMAMIŞ</item>
+		<item>BİR DİRHEM ET BİN AYIP ÖRTER</item>
+		<item>BİR ELİN NESİ VAR İKİ ELİN SESİ VAR</item>
+		<item>BİR GÖZ AĞLARKEN ÖBÜR GÖZ GÜLMEZ</item>
+		<item>BİR GÜNLÜK BEYLİK BEYLİKTİR</item>
+		<item>BİR HATIR İKİ HATIR ÜÇÜNCÜDE VUR SATIR</item>
+		<item>BİR İNSANI TANIMAK İÇİN YA ALIŞVERİŞ ETMELİ YA YOLA GİTMELİ</item>
+		<item>BİR KORKAK BİR ORDUYU BOZAR</item>
+		<item>BİR KOYUNDAN İKİ POST ÇIKMAZ</item>
+		<item>BİR MIH BİR NAL KURTARIR BİR NAL BİR AT KURTARIR</item>
+		<item>BİR MUSİBET BİN NASİHATTEN İYİDİR</item>
+		<item>BİR SELAM BİN HATIR YAPAR</item>
+		<item>BİR SENDEN BÜYÜĞÜN BİRDE SENDEN KÜÇÜĞÜN SÖZÜNÜ DİNLE</item>
+		<item>BİR SIÇRARSIN ÇEKİRGE İKİ SIÇRARSIN ÇEKİRGE ÜÇÜNCÜDE ELE GEÇERSİN ÇEKİRGE</item>
+		<item>BİR SÖYLE İKİ DİNLE</item>
+		<item>BİR SÖZ BİN BÜYÜYE BEDELDİR</item>
+		<item>BİR SÜRÇEN ATIN BAŞI KESİLMEZ</item>
+		<item>BİR TEPE YIKILIR BİR DERE DOLAR</item>
+		<item>BİR YALANI KIRK DOĞRUYA SAKLARLAR</item>
+		<item>BİR YEMEM DİYENDEN KORK BİR OTURMAM DİYENDEN</item>
+		<item>BİRGÜN SU İÇECEĞİN ÇEŞMEYE ÇAMUR SIÇRATMA</item>
+		<item>BİRİ YER BİRİ BAKAR KIYAMET ONDAN KOPAR</item>
+		<item>BİRLİKTEN DİRLİK DOĞAR</item>
+		<item>BİRŞEYİN ÖNÜNE BAKMA SONUNA BAK</item>
+		<item>BİTLİ BAKLANIN KÖR ALICISI OLUR</item>
+		<item>BOĞAZ DOKUZ BOĞUMDUR</item>
+		<item>BOK NİSBETLE TEZEK AMBER GİBİDİR</item>
+		<item>BOKTUR KOKAR HUYDUR ÇEKER</item>
+		<item>BOL BOL YİYEN BEL BEL BAKAR</item>
+		<item>BORÇ İYİ GÜNE KALMAZ</item>
+		<item>BORÇ UZAYINCA KALIR DERT UZAYINCA ALIR</item>
+		<item>BORÇ YİĞİDİN KAMÇISIDIR</item>
+		<item>BORCUN İYİSİ VERMEK DERDİN İYİSİ ÖLMEK</item>
+		<item>BOŞ ÇUVAL AYAKTA DURMAZ</item>
+		<item>BOŞ FIÇI ÇOK LANGIRDAR</item>
+		<item>BOŞ GEZMEKTEN BEDAVA ÇALIŞMAK YEĞDİR</item>
+		<item>BOŞ TORBA İLE AT TUTULMAZ</item>
+		<item>BOSTAN YEŞİL İKEN PAZARLIĞA OTURULMAZ</item>
+		<item>BÖYLE GELMİŞ BÖYLE GİDER</item>
+		<item>BOYNUZ KULAĞI GEÇER</item>
+		<item>BUĞDAY BAŞAK VERİNCE ORAK PAHAYA ÇIKAR</item>
+		<item>BUĞDAYIM VAR DEME AMBARA GİRMEYİNCE OĞLUM VAR DEME YOKSULLUĞA DÜŞMEYİNCE</item>
+		<item>BUĞDAYIN YANINDA ACI OT DA SULANIR</item>
+		<item>BUGÜN BANA İSE YARIN SANA</item>
+		<item>BUGÜNKÜ TAVUK YARINKİ KAZDAN İYİDİR</item>
+		<item>BUGÜNÜN İŞİNİ YARINA BIRAKMA</item>
+		<item>BÜKEMEDİĞİN ELİ ÖP</item>
+		<item>BÜLBÜLÜ ALTIN KAFESE KOYMUŞLAR AH VATANIM DEMİŞ</item>
+		<item>BÜLBÜLÜN ÇEKTİĞİ DİL BELASIDIR</item>
+		<item>BÜYÜK BALIK KÜÇÜK BALIĞI YUTAR</item>
+		<item>BÜYÜK BAŞIN DERDİ BÜYÜK OLUR</item>
+		<item>BÜYÜK LOKMA YE BÜYÜK SÖZ SÖYLEME</item>
+		<item>CAHİLE SÖZ ANLATMAK DEVEYE HENDEK ATLATMAKTAN GÜÇTÜR</item>
+		<item>CAHİLİN DOSTLUĞUNDAN ALİMİN DÜŞMANLIĞI YEĞDİR</item>
+		<item>CAMBAZ İPTE BALIK DİPTE GEREK</item>
+		<item>CAN BOĞAZDAN GELİR</item>
+		<item>CAN CANIN YOLDAŞIDIR</item>
+		<item>CAN ÇIKMAYINCA HUY ÇIKMAZ</item>
+		<item>CAN CÜMLEDEN AZİZ</item>
+		<item>CANA GELECEK MALA GELSİN</item>
+		<item>CANI KAYMAK İSTEYEN MANDAYI YANINDA TAŞIR</item>
+		<item>CANI YANAN EŞEK ATTAN YÜRÜK OLUR</item>
+		<item>CEFA ÇEKMEYEN SEFANIN KADRİNİ BİLEMEZ</item>
+		<item>CENNET ANNELERİN AYAKLARI ALTINDADIR</item>
+		<item>CENNETİN KAPISINI CÖMERTLER AÇAR</item>
+		<item>CESURUN BAKIŞI KORKAĞIN KILICINDAN KESKİNDİR</item>
+		<item>CİNS HOROZ YUMURTADA ÖTER</item>
+		<item>CİNS KEDİ ÖLÜSÜNÜ GÖSTERMEZ</item>
+		<item>CÖMERT DERLER MALDAN EDERLER YİĞİT DERLER CANDAN EDERLER</item>
+		<item>ÇABALAMA İLE ÇARIK YIRTILIR</item>
+		<item>ÇABUK PARLAYAN ÇABUK SÖNER</item>
+		<item>ÇAĞRILAN YERE ERİNME ÇAĞRILMAYAN YERE GÖRÜNME</item>
+		<item>ÇALI ÇIRPI YUVAM İYİ KÖTÜ KOCAM</item>
+		<item>ÇALIDA GÜL BİTMEZ CAHİLE SÖZ YETMEZ</item>
+		<item>ÇALMA ELİN KAPISINI ÇALARLAR KAPINI</item>
+		<item>ÇAM SAKIZI ÇOBAN ARMAĞANI</item>
+		<item>ÇANAĞA NE DOĞRARSAN KARŞINA O ÇIKAR</item>
+		<item>ÇANAKTA BALIN OLSUN ARI BAĞDATTAN GELİR</item>
+		<item>ÇARŞI İTİ EV BEKLEMEZ</item>
+		<item>ÇATAL KAZIK YERE ÇAKILMAZ</item>
+		<item>ÇİFTÇİNİN AMBARI SABANIN UCUNDADIR</item>
+		<item>ÇİFTÇİNİN KARNINI YARMIŞLAR KIRK TANE GELECEK YIL ÇIKMIŞ</item>
+		<item>ÇİFTÇİYE YAĞMUR YOLCUYA KURAK CÜMLENİN MURADINI VERECEK HAKK</item>
+		<item>ÇIKACAK KAN DAMARDA DURMAZ</item>
+		<item>ÇIKMADIK CANDAN UMUT KESİLMEZ</item>
+		<item>ÇİNGENE ÇİNGENEYE ÇATMADIKÇA KASNAK BOYNUNA GEÇMEZ</item>
+		<item>ÇİNGENEDEN ÇOBAN OLMAZ YAHUDİDEN PEHLİVAN</item>
+		<item>ÇİNGENEYE BEYLİK VERMİŞLER ÖNCE BABASINI ASMIŞ</item>
+		<item>ÇINGIRAKLI DEVE KAYBOLMAZ</item>
+		<item>ÇİRKEFE TAŞ ATMA ÜSTÜNE SIÇRAR</item>
+		<item>ÇİVİ ÇIKAR AMA YERİ KALIR</item>
+		<item>ÇİVİ ÇİVİYİ SÖKER</item>
+		<item>ÇOBANA VERME KIZI YA KOYUN GÜDDÜRÜR YADA KUZU</item>
+		<item>ÇOBANSIZ KOYUNU KURT KAPAR</item>
+		<item>ÇOCUĞA İŞ BUYURAN ARDINA KENDİ DÜŞER</item>
+		<item>ÇOCUĞUN BULUNDUĞU YERDE KOV OLMAZ</item>
+		<item>ÇOCUĞUN YEDİĞİ HELAL GİYDİĞİ HARAM</item>
+		<item>ÇOCUKTAN AL HABERİ</item>
+		<item>ÇOĞU ZARAR AZI KARAR</item>
+		<item>ÇOK BİLEN ÇOK YANILIR</item>
+		<item>ÇOK GEZEN ÇOK BİLİR</item>
+		<item>ÇOK HAVLAYAN KÖPEK ISIRMAZ</item>
+		<item>ÇOK KOŞAN ÇABUK YORULUR</item>
+		<item>ÇOK SÖYLEME ARSIZ OLUR AÇ KOYMA HIRSIZ OLUR</item>
+		<item>ÇOK YAŞAYAN BİLMEZ ÇOK GEZEN BİLİR</item>
+		<item>ÇÖMLEKÇİ SUYU SAKSIDAN İÇER</item>
+		<item>ÇUL İÇİNDE ARSLAN YATAR</item>
+		<item>ÇÜRÜK TAHTA ÇİVİ TUTMAZ</item>
+		<item>DAĞ ADAMI HASTA EDER SAĞ ADAMI</item>
+		<item>DAĞ BAŞI DUMANSIZ OLMAZ</item>
+		<item>DAĞ DAĞA KAVUŞMAZ İNSAN İNSANA KAVUŞUR</item>
+		<item>DAĞ DAĞA KÜSMÜŞ DAĞIN HABERİ OLMAMIŞ</item>
+		<item>DAĞ NE KADAR YÜCE OLSA YOL ÜSTÜNDEN AŞAR</item>
+		<item>DAMLAYA DAMLAYA GÖL OLUR</item>
+		<item>DANIŞAN DAĞLAR AŞAR DANIŞMAYAN YOLDA ŞAŞAR</item>
+		<item>DANIŞAN DAĞI AŞMIŞ DANIŞMAYAN YOLU ŞAŞMIŞ</item>
+		<item>DARI UNUNDAN BAKLAVA İNCİR AĞACINDAN OKLAVA OLMAZ</item>
+		<item>DAVUL DENGİ DENGİNE ÇALAR</item>
+		<item>DAVULUN SESİ UZAKTAN HOŞ GELİR</item>
+		<item>DEĞİRMEK İKİ TAŞTAN MUHABBET İKİ BAŞTAN</item>
+		<item>DELİ DELİDEN HOŞLANIR İMAN ÖLÜDEN</item>
+		<item>DELİ İLE ÇIKMA YOLA BAŞINA GETİRİR BELA</item>
+		<item>DELİ KIZA CİLVE YAP DEMİŞLER ODA GİTMİŞ OSURMUŞ</item>
+		<item>DELİYE HERGÜN BAYRAM</item>
+		<item>DEMİR NEMDEN İNSAN GAMDAN ÇÜRÜR</item>
+		<item>DEMİR TAVINDA DÖVÜLÜR</item>
+		<item>DENİZE DÜŞEN YILANA SARILIR</item>
+		<item>DERDİNİ SÖYLEMEYEN DERMAN BULAMAZ</item>
+		<item>DEREYİ GÖRMEDEN PAÇAYI SIVAMA</item>
+		<item>DERİN SU YAVAŞ AKAR</item>
+		<item>DERTSİZ BAŞ OLMAZ</item>
+		<item>DERVİŞİN FİKRİ NEYSE ZİKRİDE O OLUR</item>
+		<item>DESTURSUZ BAĞA GİRİLMEZ</item>
+		<item>DEVEDEN BÜYÜK FİL VAR</item>
+		<item>DEVEYE CİLVE YAP DEMİŞLER GÖTÜYLE DAĞLARI DEVİRMİŞ</item>
+		<item>DEVEYİ YARDAN UÇURAN BİR TUTAM OTTUR</item>
+		<item>DEVLETİN MALI DENİZ YEMEYEN DOMUZ</item>
+		<item>DİBİ GÖRÜNMEYEN SUYA GİRME</item>
+		<item>DİKENSİZ GÜL OLMAZ</item>
+		<item>DİL DİLE DEĞMEDEN DİL ÖĞRENİLMEZ</item>
+		<item>DİLENCİYE HIYAR VERMİŞLER EĞRİ DİYE BEĞENMEMİŞ</item>
+		<item>DİLİM SENİ DİLİM DİLİM DİLEYİM BAŞIMA GELENİ SENDEN BİLEYİM</item>
+		<item>DİLİN CİSMİ KÜÇÜK CÜRÜMÜ BÜYÜK</item>
+		<item>DİLİN KEMİĞİ YOK</item>
+		<item>DİNSİZİN HAKKINDAN İMANSIZ GELİR</item>
+		<item>DOĞMADIK ÇOCUĞA KAFTAN BİÇİLMEZ</item>
+		<item>DOĞRU SÖYLEYENİ DOKUZ KÖYDEN KOVARLAR</item>
+		<item>DOĞRU SÖZ ACIDIR</item>
+		<item>DOĞRUNUN YARDIMCISI ALLAHTIR</item>
+		<item>DOKUZ AT BİR KAZIĞA BAĞLANMAZ</item>
+		<item>DOMUZ DERİSİ POST OLMAZ ESKİ DÜŞMAN DOST OLMAZ</item>
+		<item>DOST ACI SÖYLER</item>
+		<item>DOST BAŞA BAKAR DÜŞMAN AYAĞA</item>
+		<item>DOST DOSTUN EĞERLENMİŞ ATIDIR</item>
+		<item>DOST İLE YE İÇ ALIŞVERİŞ ETME</item>
+		<item>DOST KARA GÜNDE BELLİ OLUR</item>
+		<item>DOSTLUK BAŞKA ALIŞVERİŞ BAŞKA</item>
+		<item>DOSTUN ATTIĞI TAŞ BAŞ YARMAZ</item>
+		<item>DÜĞÜN EL İLE HARMAN YEL İLE</item>
+		<item>DÜNYA BÜYÜK OLSA DA DARDIR</item>
+		<item>DÜNYA MALI DÜNYADA KALIR</item>
+		<item>DÜNYA SULTAN SÜLEYMANA BİLE KALMAMIŞ</item>
+		<item>DÜNYA TÜKENİR YALAN TÜKENMEZ</item>
+		<item>DÜŞENİN DOSTU OLMAZ HELE BİR YOL DÜŞTE GÖR</item>
+		<item>DÜŞMAN DÜŞMANA RAHMET OKUMAZ</item>
+		<item>DÜŞMANINA GÜCENİP DOSTUNA DARILMA</item>
+		<item>DÜŞMEZ KALKMAZ BİR ALLAH</item>
+		<item>ECEL GELDİ CİHANA BAŞ AĞRISI BAHANE</item>
+		<item>ECELE ÇARE BULUNMAZ</item>
+		<item>ECELİ GELEN KÖPEK CAMİ DUVARINA İŞER</item>
+		<item>EDEN BULUR İNLEYEN ÖLÜR</item>
+		<item>EĞİLEN BAŞ KESİLMEZ</item>
+		<item>EĞRETİ ATA BİNEN TEZ İNER</item>
+		<item>EĞRİ OTUR DOĞRU SÖYLE</item>
+		<item>EK TOHUMUN HASINI ÇEKME YİYECEK YASINI</item>
+		<item>EKMEDEN BİÇİLMEZ</item>
+		<item>EL EL İLE DEĞİRMEN YEL İLE</item>
+		<item>EL ELDEN ÜSTÜNDÜR</item>
+		<item>EL ELİ YIKAR İKİ ELDE YÜZÜ</item>
+		<item>EL ELİN EŞEĞİNİ TÜRKÜ ÇAĞIRARAK ARAR</item>
+		<item>EL ELİYLE YILAN TUTULUR</item>
+		<item>EL İÇİN KUYU KAZAN EVVELA KENDİ DÜŞER</item>
+		<item>EL İLE GELEN DÜĞÜN BAYRAM</item>
+		<item>EL KAZANI İLE AŞ KAYNAMAZ</item>
+		<item>EL YARASI ONULUR DİL YARASI ONULMAZ</item>
+		<item>EL YUMRUĞU YEMEYEN KENDİ YUMRUĞUNU BALYOZ SANIRMIŞ</item>
+		<item>ELÇİYE ZEVAL OLMAZ</item>
+		<item>EMANETE HIYANET OLMAZ</item>
+		<item>EMEK OLMADAN YEMEK OLMAZ</item>
+		<item>EMEKTE BİTER YUMAK</item>
+		<item>ER OLAN EKMEĞİNİ TAŞTAN ÇIKARIR</item>
+		<item>ERKEK ARSLAN DİŞİSİNDEN KUVVET ALIR</item>
+		<item>ERKEN KALKAN YOL ALIR ER EVLENEN DÖL ALIR</item>
+		<item>ERTEYE KALAN ARKAYA KALIR</item>
+		<item>EŞEĞE ALTIN SEMER VURSALAR EŞEK YİNE EŞEKTİR</item>
+		<item>EŞEĞİN KUYRUĞUNU KALABALIKTA KESME KİMİ UZUN KİMİ KISA DER</item>
+		<item>EŞEĞİNİ SAĞLAM KAZIĞA BAĞLA SONRA ALLAHA ISMARLA</item>
+		<item>EŞEK BİLE BİR DÜŞTÜĞÜ YERE BİR DAHA DÜŞMEZ</item>
+		<item>EŞEK HOŞAFTAN NE ANLAR SUYUNU İÇER TANESİNİ BIRAKIR</item>
+		<item>ESİRGENEN GÖZE ÇÖP BATAR</item>
+		<item>ESKİ DOST DÜŞMAN OLMAZ YENİSİNDEN VEFA GELMEZ</item>
+		<item>ETLE TIRNAK ARASINA GİRİLMEZ</item>
+		<item>ETME BULMA DÜNYASI</item>
+		<item>EV ALMA KOMŞU AL</item>
+		<item>EVDEKİ HESAP ÇARŞIYA UYMAZ</item>
+		<item>EVİ EV EDEN AVRAT YURDU ŞEN EDEN DEVLET</item>
+		<item>EVLİ EVİNDE KÖYLÜ KÖYÜNDE GEREK</item>
+		<item>FAKİRİ DÖVME ÜSTÜNÜ YIRT</item>
+		<item>FAKİRLİK AYIP DEĞİL TEMBELLİK AYIP</item>
+		<item>FARZ SÜNNETİ BASTIRIR</item>
+		<item>FAYDASIZ BAŞ MEZARA YARAŞIR</item>
+		<item>FAZLA MAL GÖZ ÇIKARMAZ</item>
+		<item>FIRINCININ ÇOCUĞU AÇ DOLAŞIRMIŞ</item>
+		<item>FIRSAT ELDEYKEN SÜRÜN DEVRANI</item>
+		<item>FIRSAT HER VAKİT ELE GEÇMEZ</item>
+		<item>FISILTI EV YIKAR</item>
+		<item>FUKARANIN ŞAŞKINI BEYAZ GİYER KIŞ GÜNÜ</item>
+		<item>FUKARANIN TAVUĞU TEK TEK YUMURTLAR</item>
+		<item>GABBE İÇERDEN OLUNCA KAPI TIRKAZ TUTMAZ</item>
+		<item>GAFİKE KELAM NAFİLE KELAM</item>
+		<item>GAMMAZ OLMASA TİLKİ PAZARDA GEZER</item>
+		<item>GARİP KUŞUN YUVASINI ALLAH YAPAR</item>
+		<item>GAVURA KIZIP ORUÇ YENMEZ</item>
+		<item>GAVURUN EKMEĞİNİ YİYEN GAVURUN KILICINI ÇALAR</item>
+		<item>GELENE GİDENE RAHMET OKUTUR</item>
+		<item>GELENE GİT DENİLMEZ</item>
+		<item>GELİN BİNDİ DEVEYE GÖR KISMETİ NEREYE</item>
+		<item>GEMİSİNİ KURTARAN KAPTAN</item>
+		<item>GENÇLER SADIK OLMAK İSTER YAPAMAZLAR YAŞLILAR SADIK OLMAMAK İSTER YAPAMAZLAR</item>
+		<item>GENÇLİĞİN KIYMETİ İHTİYARLIKTA BİLİNİR</item>
+		<item>GENÇLİKTE PARA KAZAN KOCALIKTA KUR KAZAN</item>
+		<item>GENİŞ GÜNÜNDE DAR GEZEN DAR GÜNÜNDE GENİŞ GEZER</item>
+		<item>GEVŞEK TÜKÜRÜĞÜN SAKALA ZARARI VARDIR</item>
+		<item>GİDİLMEYEN YER SENİN DEĞİLDİR</item>
+		<item>GİDİPTE GELMEMEK GELİPTE GÖRMEMEK VAR</item>
+		<item>GİTTİĞİN YER KÖR İSE GÖZÜNÜ YUMDA BAK</item>
+		<item>GÖĞE DİREK DENİZE KAPAK OLMAZ</item>
+		<item>GÖL YERİNDEN SU EKSİK OLMAZ</item>
+		<item>GÖN YUFKA YERİNDEN DELİNİR</item>
+		<item>GÖNLÜN SEVDİĞİ YA KÜRKLÜ OLUR YA KEPENEKLİ</item>
+		<item>GÖNLÜN YAZI VAR KIŞI VAR</item>
+		<item>GÖNÜL BİR SIRÇA SARAYDIR KIRILIRSA YAPILMAZ</item>
+		<item>GÖNÜL FERMAN DİNLEMEZ</item>
+		<item>GÖNÜLDEN GÖNÜLE YOL VARDIR</item>
+		<item>GÖNÜLSÜZ NAMAZ GÖĞE AĞMAZ</item>
+		<item>GÖNÜLSÜZ YENEN AŞ YA KARIN AĞRITIR YADA BAŞ</item>
+		<item>GÖREN GÖZÜN HAKKI VARDIR</item>
+		<item>GÖRENEDİR GÖRENE KÖRE NEDİR KÖRE NE</item>
+		<item>GÖRMEMİŞİN ÇOCUĞU OLMUŞ TUTMUŞ ŞEYİNİ KOPARMIŞ</item>
+		<item>GÖRÜNEN DAĞIN ARDI YAKINDIR</item>
+		<item>GÖRÜNEN KÖY KILAVUZ İSTEMEZ</item>
+		<item>GÖZ GÖRMEYİNCE GÖNÜL KATLANIR</item>
+		<item>GÖZ MİDEDEN BÜYÜKTÜR</item>
+		<item>GÖZDEN IRAK OLAN GÖNÜLDENDE IRAK OLUR</item>
+		<item>GÖZE GÖZ DİŞE DİŞ</item>
+		<item>GÖZÜ TANEDE OLAN KUŞUN AYAĞI TUZAKTAN KURTULMAZ</item>
+		<item>GÜLME KOMŞUNA GELİR BAŞINA</item>
+		<item>GÜLÜ SEVEN DİKENİNE KATLANIR</item>
+		<item>GÜN DOĞMADAN NELER DOĞAR</item>
+		<item>GÜN OLA HARMAN OLA</item>
+		<item>GÜNEŞ BALÇIKLA SIVANMAZ</item>
+		<item>GÜNEŞ GİREN EVE DOKTOR GİRMEZ</item>
+		<item>GÜNEŞ GÖRMEYEN EVE DOKTOR GİRER</item>
+		<item>GÜVENME DAYINA EKMEK AL YANINA</item>
+		<item>GÜVENME DOSTUNA SAMAN DOLDURUR POSTUNA</item>
+		<item>GÜVENME VARLIĞA DÜŞERSİN DARLIĞA</item>
+		<item>GÜZELE BAKMAK SEVAPTIR</item>
+		<item>GÜZELLİK TABİATIN KADINA İLK VERDİĞİ VE İLK GERİ ALDIĞI HEDİYEDİR</item>
+		<item>HACI HACI OLMAZ GİTMEKLE MEKKEYE DEDE DEDE OLMAZ GİTMEKLE TEKKEYE</item>
+		<item>HADDİNİ BİLMEYENE BİLDİRİRLER</item>
+		<item>HAK DEYİNCE AKAN SULAR DURUR</item>
+		<item>HAK GELİNCE BATIL GİDER</item>
+		<item>HAK YERDE KALMAZ</item>
+		<item>HAK YERİNİ BULUR</item>
+		<item>HAL HALİN YOLDAŞIDIR</item>
+		<item>HAMALA SEMERİ YÜK DEĞİLDİR</item>
+		<item>HAMAMA GİREN TERLER</item>
+		<item>HANGİ GÜN VARDIR AKŞAM OLMADIK</item>
+		<item>HARAMA EL UZATILMAZ</item>
+		<item>HARAMA UÇKUR ÇÖZÜLMEZ</item>
+		<item>HARAMIN TEMELİ OLMAZ</item>
+		<item>HARMAN DÖVMEK KEÇİNİN İŞİ DEĞİL</item>
+		<item>HARMAN YEL İLE DÜĞÜN EL İLE OLUR</item>
+		<item>HASTA SAĞ KALIRSA HEKİME KARŞI GELİR</item>
+		<item>HATASIZ KUL OLMAZ</item>
+		<item>HAYDAN GELEN HUYA GİDER</item>
+		<item>HAYIR DİLE KOMŞUNA HAYIR GELE BAŞINA</item>
+		<item>HAZIRA DAĞ DAYANMAZ</item>
+		<item>HEKİMDEN SORMA ÇEKENDEN SOR</item>
+		<item>HEKİMSİZ HAKİMSİZ YERDE OTURMA</item>
+		<item>HER AĞACIN MEYVESİ OLMAZ</item>
+		<item>HER AĞAÇTAN KAŞIK OLMAZ</item>
+		<item>HER AKLA GELENİ İŞLEME HER AĞACI TAŞLAMA</item>
+		<item>HER ÇOK AZDAN OLUR</item>
+		<item>HER DAMARDAN KAN ALINMAZ</item>
+		<item>HER DELİĞE ELİNİ SOKMA YA YILAN ÇIKAR YA ÇIYAN</item>
+		<item>HER FİRAVUNUN BİR MUSASI OLUR</item>
+		<item>HER HOROZ KENDİ ÇÖPLÜĞÜNDE ÖTER</item>
+		<item>HER İNİŞİN BİR YOKUŞU VARDIR</item>
+		<item>HER İŞİN BAŞI SAĞLIK</item>
+		<item>HER KAŞIĞIN KISMETİ BİR OLMAZ</item>
+		<item>HER KOYUN KENDİ BACAĞINDAN ASILIR</item>
+		<item>HER KUŞUN ETİ YENMEZ</item>
+		<item>HER ŞEY İNCELİKTEN İNSAN KABALIKTAN KIRILIR</item>
+		<item>HER ŞEYİN BİR VAKTİ VAR HOROZ BİLE VAKTİNDE ÖTER</item>
+		<item>HER YİĞİDİN BİR YOĞURT YİYİŞİ VARDIR</item>
+		<item>HER YİĞİDİN GÖNLÜNDE BİR ARSLAN YATAR</item>
+		<item>HER ZAMAN GEMİCİNİN İSTEDİĞİ RÜZGAR ESMEZ</item>
+		<item>HER ZİYAN BİR ÖĞÜTTÜR</item>
+		<item>HERKES BİLDİĞİNİ OKUR</item>
+		<item>HERKES EKTİĞİNİ BİÇER</item>
+		<item>HERKES KAŞIK YAPAR AMA SAPINI ORTAYA GETİREMEZ</item>
+		<item>HERKES KAŞIK YAPAR AMA SAPINI YAPAMAZ</item>
+		<item>HERKES NE EDERSE KENDİNE EDER</item>
+		<item>HERKESİN AKLI BİR OLSA KOYUNA ÇOBAN BULUNMAZ</item>
+		<item>HERKESİN ARŞINA GÖRE BEZ VERMEZLER</item>
+		<item>HERKESİN ETTİĞİ YOLUNA GELİR</item>
+		<item>HERKESİN TENCERESİ KAPALI KAYNAR</item>
+		<item>HERKESİN YORULDUĞU YERE HAN YAPILMAZ</item>
+		<item>HERŞEY OLACAĞINA VARIR</item>
+		<item>HERŞEYİN YENİSİ DOSTUN ESKİSİ</item>
+		<item>HESAPSIZ KASAP YA BIÇAK KIRAR YA MASA</item>
+		<item>HIRSIZLIK BİR EKMEKTEN KAHPELİK BİR ÖPMEKTEN</item>
+		<item>HIZLI KOŞAN ATIN BOKU SEYREK DÜŞER</item>
+		<item>HOCANIN DEDİĞİNİ YAP ARKASINDAN GİTME</item>
+		<item>HOCANIN VURDUĞU YERDE GÜL BİTER</item>
+		<item>HOROZ ÖLÜR GÖZÜ ÇÖPLÜKTE KALIR</item>
+		<item>HOROZU ÇOK OLAN KÖYDE SABAH GEÇ OLUR</item>
+		<item>HUYLU HUYUNDAN VAZGEÇMEZ</item>
+		<item>IRAK YERİN HABERİNİ KERVAN GETİRİR</item>
+		<item>IRMAK KENARINA ÇEŞME YAPILMAZ</item>
+		<item>IRMAKTAN GEÇERKEN AT DEĞİŞTİRİLMEZ</item>
+		<item>IRZ İNSANIN KANI PAHASIDIR</item>
+		<item>IŞIĞINI AKŞAMDAN ÖNCE YAKAN SABAHA ÇIRASINDA YAĞ BULAMAZ</item>
+		<item>ISIRACAK İT DİŞİNİ GÖSTERMEZ</item>
+		<item>ISIRGAN İLE TAHARET ALINMAZ</item>
+		<item>ISLANMIŞIN YAĞMURDAN PERVASI YOKTUR</item>
+		<item>ISSIZ EVE İT BURUK</item>
+		<item>İBADETTE GİZLİ KABAHATTE</item>
+		<item>İĞNE ATSAN YERE DÜŞMEZ</item>
+		<item>İĞNEYİ KENDİNE ÇUVALDIZI BAŞKASINA BATIR</item>
+		<item>İKİ AT BİR KAZIĞA BAĞLANMAZ</item>
+		<item>İKİ BAŞ BİR KAZANDA KAYNAMAZ</item>
+		<item>İKİ CAMBAZ BİR İPTE OYNAMAZ</item>
+		<item>İKİ ÇIPLAK BİR HAMAMA YAKIŞIR</item>
+		<item>İKİ DİNLE BİR SÖYLE</item>
+		<item>İKİ EL BİR BAŞ İÇİNDİR</item>
+		<item>İKİ GÖNÜL BİR OLUNCA SAMANLIK SEYRAN OLUR</item>
+		<item>İKİ KARPUZ BİR KOLTUĞA SIĞMAZ</item>
+		<item>İKİ KİŞİ KONUŞURKEN ÜÇÜNCÜYE BOK YEMEK DÜŞER</item>
+		<item>İKİ ÖLÇ BİR BİÇ</item>
+		<item>İNSAN BEŞER KULDUR ŞAŞAR</item>
+		<item>İNSAN DOĞDUĞU YERDE DEĞİL DOYDUĞU YERDE</item>
+		<item>İNSAN GÖRE GÖRE HAYVAN SÜRE SÜRE</item>
+		<item>İNSAN İNSANIN ŞEYTANIDIR</item>
+		<item>İNSAN KIYMETİNİ İNSAN BİLİR</item>
+		<item>İNSAN SEVDİĞİNİ YERDEN YERE VURURMUŞ</item>
+		<item>İNSAN YEDİSİNDE NE İSE YETMİŞİNDE DE ODUR</item>
+		<item>İNSANOĞLU ÇİĞ SÜT EMMİŞ</item>
+		<item>İP İNCELDİĞİ YERDEN KOPAR</item>
+		<item>İŞ İNSANIN AYNASIDIR</item>
+		<item>İŞ OLACAĞINA VARIR</item>
+		<item>İŞİNE HOR BAKAN BOYNUNA TORBA TAKAR</item>
+		<item>İSLAMIN ŞARTI BEŞ ALTINCISI İNSAF DEMİŞLER</item>
+		<item>İŞLEYEN DEMİR IŞILDAR</item>
+		<item>İŞTEN ARTMAZ DİŞTEN ARTAR</item>
+		<item>İT DERİSİNDEN POST OLMAZ</item>
+		<item>İT İTİN AYAĞINA BASMAZ</item>
+		<item>İT ÜRÜR KERVAN YÜRÜR</item>
+		<item>İT YAL YEDİĞİ KAPIYI BEKLER</item>
+		<item>İTİ AN ÇOMAĞI HAZIRLA</item>
+		<item>İTİN DUASI KABUL OLSAYDI GÖKTEN KEMİK YAĞARDI</item>
+		<item>İTLE ÇUVALA GİRİLMEZ</item>
+		<item>İTLE YATAN BİTLE KALKAR</item>
+		<item>İYİ DOST KARA GÜNDE BELLİ OLUR</item>
+		<item>İYİ EVLAT BABAYI VEZİR KÖTÜSÜ REZİL EDER</item>
+		<item>İYİ İNSAN LAFININ ÜSTÜNE GELİR</item>
+		<item>İYİ OLACAK HASTANIN HEKİM AYAĞINA GELİR</item>
+		<item>İYİLİĞE İYİLİK HER KİŞİNİN KARI KÖTÜLÜĞE İYİLİK ER KİŞİNİN KARI</item>
+		<item>İYİLİK EDEN İYİLİK BULUR</item>
+		<item>İYİLİK ET DENİZE AT BALIK BİLMEZSE HALİK BİLİR</item>
+		<item>KABAHAT SAMUR KÜRK OLSA KİMSE SIRTINA ALMAZ</item>
+		<item>KAÇAN BALIK BÜYÜK OLUR</item>
+		<item>KAÇANIN ANASI AĞLAMAMIŞ</item>
+		<item>KALP KALBE KARŞIDIR</item>
+		<item>KANAAT GİBİ DEVLET OLMAZ</item>
+		<item>KANATSIZ KUŞ UÇMAZ</item>
+		<item>KANI KANLA YUMAZLAR KANI SU İLE YURLAR</item>
+		<item>KAR ZARARIN KARDEŞİDİR</item>
+		<item>KARA HABER TEZ DUYULUR</item>
+		<item>KARAYA SABUN DELİĞE ÖĞÜT NEYLESİN</item>
+		<item>KARDEŞ KARDEŞİ ATMIŞ YAR BAŞINDA TUTMUŞ</item>
+		<item>KARDEŞ KARDEŞİ BIÇAKLAMIŞ DÖNMÜŞ YİNE KUCAKLAMIŞ</item>
+		<item>KARDEŞ KARDEŞİN NE ÖLDÜĞÜNÜ İSTER NE ONDUĞUNU</item>
+		<item>KARGA YAVRUSUNA BAKMIŞ BENİM AK PAK EVLADIM DEMİŞ</item>
+		<item>KARGA KEKLİĞİ TAKLİT EDEYİM DEMİŞ KENDİ YÜRÜYÜŞÜNÜ ŞAŞIRMIŞ</item>
+		<item>KARTALA BİR OK DEĞMİŞ ODA KENDİ YELEĞİNDEN</item>
+		<item>KATIRA BABAN KİM DEMİŞLER DAYIM ATTIR DEMİŞ</item>
+		<item>KAYNAYAN KAZAN KAPAK TUTMAZ</item>
+		<item>KAZ GELEN YERDEN TAVUK ESİRGENMEZ</item>
+		<item>KAZA GELİYORUM DEMEZ</item>
+		<item>KAZAN KAZANA KARA DEMİŞ</item>
+		<item>KAZMA ELİN KUYUSUNU KAZARLAR KUYUNU</item>
+		<item>KEÇİ CAN DERDİNDE KASAP YAĞ DERDİNDE</item>
+		<item>KEÇİ NEREYE ÇIKARSA OĞLAĞIDA ORAYA ÇIKAR</item>
+		<item>KEDİ UZANAMADIĞI CİĞERE PİS DER</item>
+		<item>KEDİNİN BOYNUNA CİĞER ASILMAZ</item>
+		<item>KEL ÖLÜR SIRMA SAÇLI OLUR KÖR ÖLÜR BADEM GÖZLÜ OLUR</item>
+		<item>KELE KÖSEDEN YARDIM GELMEZ</item>
+		<item>KELİN İLACI OLSA BAŞINA SÜRER</item>
+		<item>KEM GÖZ KALP AKÇE SAHİBİNİNDİR</item>
+		<item>KENDİ DÜŞEN AĞLAMAZ</item>
+		<item>KERVAN YOLDA DÜZELİR</item>
+		<item>KESİLEN BAŞ YERİNE KONMAZ</item>
+		<item>KESKİN SİRKE KÜPÜNE ZARAR VERİR</item>
+		<item>KILAVUZU KARGA OLANIN BURNU BOKTAN KURTULMAZ</item>
+		<item>KILIÇ KININI KESMEZ</item>
+		<item>KILICI ELİNE ALAN KILICI İLE ÖLÜR</item>
+		<item>KILIK KIYAFETLE ADAM OLUNMAZ</item>
+		<item>KİMİ KÖPRÜ BULAMAZ GEÇMEYE KİMİ SU BULAMAZ İÇMEYE</item>
+		<item>KİMİNİN PARASI KİMİNİN DUASI</item>
+		<item>KİMSE AYRANIM EKŞİ DEMEZ</item>
+		<item>KİMSEDEN KİMSEYE HAYIR YOK</item>
+		<item>KİMSENİN AHI KİMSEDE KALMAZ</item>
+		<item>KIR ATIN YANINDA DURAN YA HUYUNDAN YA SUYUNDAN</item>
+		<item>KIRK YILLIK KANİ OLUR MU YANİ</item>
+		<item>KIRKINDAN SONRA AZANI TENEŞİR PAKLAR</item>
+		<item>KISMET İSE GELİR HİNTTEN YEMENDEN KISMET DEĞİLSE NE GELİR ELDEN</item>
+		<item>KISMETİNDE NE VARSA KAŞIĞINA O ÇIKAR</item>
+		<item>KIZI GÖNLÜNE BIRAKIRSAN YA DAVULCUYA VARIR YA ZURNACIYA</item>
+		<item>KIZIMIN İFFETİ BATMAKTA REZİLİN GÖZÜNE ACIRIM TÜKRÜĞE BİLLAHİ TÜKÜRSEM YÜZÜNE</item>
+		<item>KIZINI DÖVMEYEN DİZİNİ DÖVER</item>
+		<item>KOÇA BOYNUZU YÜK DEĞİL</item>
+		<item>KOMŞU KOMŞUNUN KÜLÜNE MUHTAÇTIR</item>
+		<item>KOMŞUDA PİŞER BİZEDE DÜŞER</item>
+		<item>KOMŞUNUN TAVUĞU KOMŞUYA KAZ GÖRÜNÜR</item>
+		<item>KÖPEĞE GEM VURMA KENDİSİNİ AT SANIR</item>
+		<item>KÖPEK EKMEK VEREN TANIR</item>
+		<item>KÖPEKSİZ SÜRÜYE KURT DALAR</item>
+		<item>KÖPRÜYÜ GEÇİNCEYE KADAR AYIYA DAYI DERLER</item>
+		<item>KORK ALLAHTAN KORKMAYANDAN</item>
+		<item>KORKU DAĞLARI BEKLETİR</item>
+		<item>KORKULU RÜYA GÖRMEKTENSE UYANIK YATMAK YEĞDİR</item>
+		<item>KORKUNUN ECE FAYDASI YOKTUR</item>
+		<item>KÖRLE YATAN ŞAŞI KALKAR</item>
+		<item>KÖRLER MEMLEKETİNDE ŞAŞILAR PADİŞAH OLUR</item>
+		<item>KÖRLER SAĞIRLAR BİRBİRİNİ AĞIRLAR</item>
+		<item>KÖTÜ KOMŞU İNSANI HACET SAHİBİ EDER</item>
+		<item>KÖTÜ SÖYLEME EŞİNE AĞU KATAR AŞINA</item>
+		<item>KÖY YANAR DELİ TARANIR</item>
+		<item>KOYUNUN BULUNMADIĞI YERDE KEÇİYE ABDULRAHMAN ÇELEBİ DERLER</item>
+		<item>KÜÇÜK SUDA BÜYÜK BALIK OLMAZ</item>
+		<item>KÜHEYLAN AT ÇUL İÇİNDE DE BELLİDİR</item>
+		<item>KUL AZMAYINCA HAK YAZMAZ</item>
+		<item>KUL HATASIZ</item>
+		<item>KUL SIKIŞMAYINCA HIZIR YETİŞMEZ</item>
+		<item>KURBAN ETİYLE KÖPEK TAVLANMAZ</item>
+		<item>KURDA NEDEN BOYNUN KALIN DEMİŞLER İŞİMİ KENDİM GÖRÜRÜM DE ONDAN DEMİŞ</item>
+		<item>KÜRKÇÜNÜN KÜRKÜ OLMAZ BÖRKÇÜNÜN BÖRKÜ</item>
+		<item>KÜRKÜ ORAK VAKTİNDE ORAĞI KÜRK VAKTİNDE</item>
+		<item>KURT DUMANLI HAVAYI SEVER</item>
+		<item>KURT KOCAYINCA KÖPEĞİN MASKARASI OLUR</item>
+		<item>KURT TÜĞÜNÜ DEĞİŞTİRİR HUYUNU DEĞİŞTİRMEZ</item>
+		<item>KURU LAF KARIN DOYURMAZ</item>
+		<item>KURUNUN YANINDA YAŞTA YANAR</item>
+		<item>KUSURSUZ DOST ARAYAN DOSTSUZ KALIR</item>
+		<item>KUZGUNA YAVRUSU GÖRÜNÜR</item>
+		<item>LAF TORBAYA GİRMEZ</item>
+		<item>LAFLA PEYNİR GEMİSİ YÜRÜMEZ</item>
+		<item>LATİFE LATİF GEREK</item>
+		<item>LEYLEĞİ KUŞTAN MI SAYARSIN YAZIN GELİR KIŞIN GİDER</item>
+		<item>LEYLEĞİN ÖMRÜ LAKLAKLA GEÇER</item>
+		<item>LODOSUN GÖZÜ YAŞLI OLUR</item>
+		<item>LOKMA ÇİĞNENMEDEN YUTULMAZ</item>
+		<item>MAHKEME KADIYA MÜLK DEĞİL</item>
+		<item>MAL ADAMA HEM DOST HEM DÜŞMANDIR</item>
+		<item>MAL CANIN YONGASIDIR</item>
+		<item>MALIM SENİ VEREYİMDE Mİ KÖTÜ OLAYIM VERMEYEYİMDE Mİ KÖTÜ OLAYIM</item>
+		<item>MART KAPIDAN BAKTIRIR KAZMA KÜREK YAKTIRIR</item>
+		<item>MARTTA YAĞMASIN NİSANDA DİNMESİN</item>
+		<item>MAŞA VARKEN ELİNİ ATEŞE SOKMA</item>
+		<item>MAYASIZ YOĞURT ÇALINMAZ</item>
+		<item>MAYMUN YOĞURDU YEMİŞ ARTIĞINI AYININ YÜZÜNE SÜRMÜŞ</item>
+		<item>MAZLUMUN AHI İNDİRİR ŞAHI</item>
+		<item>MERHAMETTEN MARAZ DOĞAR</item>
+		<item>MESCİDE GEREK OLAN MEYHANEYE HARAMDIR</item>
+		<item>MEYVELİ AĞAÇ TAŞLANIR</item>
+		<item>MİNAREYİ ÇALAN KILINI HAZIRLAR</item>
+		<item>MİNNETLE GÜL KOKLAMA DİKENİ SANCAR SENİ</item>
+		<item>MİRASA NEREYE GİDİYORSUN DEMİŞLER ESİP YAĞMAYA SÜRÜP SAVURMAYA DEMİŞ</item>
+		<item>MİSAFİR KISMETİYLE GELİR</item>
+		<item>MİSAFİR ON KISMETLE GELİR BİRİNİ YER DOKUZUNU BIRAKIR</item>
+		<item>MİSAFİR UMDUĞUNU DEĞİL BULDUĞUNU YER</item>
+		<item>MİSAFİRİN UMDUĞU EV SAHİBİNE İKİ ÖĞÜN OLUR</item>
+		<item>MİSAFİRLİK ÜÇ GÜNDÜR</item>
+		<item>MIZRAK ÇUVALA SIĞMAZ</item>
+		<item>MUHABBET İKİ BAŞTAN</item>
+		<item>MÜHÜR KİMDE İSE SÜLEYMAN ODUR</item>
+		<item>MUM DİBİNE IŞIK VERMEZ</item>
+		<item>MUM DİBİNE KARANLIK</item>
+		<item>MÜRÜVVETE ENDAZE OLMAZ</item>
+		<item>NAMAZA MEYLİ OLMAYANIN KULAĞI EZANDA OLMAZ</item>
+		<item>NASİPSİZ KÖPEK KURBAN BAYRAMINDA KÖY DIŞINDA BULUNUR</item>
+		<item>NASİPSİZ KÖPEK KURBAN BAYRAMINDA DAĞA ÇIKAR</item>
+		<item>NE DOĞRARSAN AŞINA O ÇIKAR KARŞINA</item>
+		<item>NE EKERSEN ONU BİÇERSİN</item>
+		<item>NE KARANLIKTA YAT NE KARA DÜŞ GÖR</item>
+		<item>NE OLDUM DEMEMELİ NE OLACAĞIM DEMELİ</item>
+		<item>NE VERİRSEN ELİNLE O GELİR SENİNLE</item>
+		<item>NE YAVUZ OL ASIL NE YAVAŞ OL BASIL</item>
+		<item>NERDE BİRLİK ORDA DİRLİK</item>
+		<item>NERDE ÇOKLUK ORDA BOKLUK</item>
+		<item>NERDE HAREKET ORDA BEREKET</item>
+		<item>NEREN AĞRIRSA CANIN ORDA</item>
+		<item>NİKAHTA KERAMET VARDIR</item>
+		<item>NİSAN YAĞMURU ALTIN ARABA GÜMÜŞ TEKERLEK</item>
+		<item>NİYET HAYIR AKIBET HAYIR</item>
+		<item>ODUNCUNUN GÖZÜ ONÇADA DİLENCİNİN GÖZÜ ÇÖMÇEDE</item>
+		<item>OĞLAN BABADAN ÖĞRENİR MECLİS GEZMEYİ KIZ ANADAN ÖĞRENİR SOFRA YAZMAYI</item>
+		<item>OĞLAN YEMİŞ OYUNA ÇOBAN YEMİŞ KOYUNA GİTMİŞ</item>
+		<item>OĞLANIN ŞAŞKINI BABASININ ZENGİNLİĞİNİ METHEDER</item>
+		<item>OLACAK OĞLAN GELİŞİNDEN BELLİ OLUR</item>
+		<item>OLACAKLA ÖLECEĞE ÇARE BULUNMAZ</item>
+		<item>OLAN DÖRT BAĞLAR OLMAYAN DERT BAĞLAR</item>
+		<item>OLGUN BİR İNSANI DOST EDİNMEK İSTERSENİZ TENKİT EDİN BASİT BİR İNSANI DOST EDİNMEK İSTERSENİZ METHEDİN</item>
+		<item>OLMAYACAK DUAYA AMİN DENİLMEZ</item>
+		<item>OLMAZ OLMAZ DEME OLMAZ OLMAZ</item>
+		<item>OLSA İLE BULSAYI EKMİŞLER HİÇ BİTMİŞ</item>
+		<item>OLSAYI BULSAYA VERMİŞLER HİÇ DOĞMUŞ</item>
+		<item>ORTAK ATIN BELİ SAKAT OLUR</item>
+		<item>OT KÖKÜ ÜSTÜNDE BİTER</item>
+		<item>OTU ÇEK KÖKÜNE BAK</item>
+		<item>OTUZ İKİ DİŞTEN ÇIKAN OTUZ İKİ MAHALLEYE YAYILIR</item>
+		<item>OYNAMASINI BİLMEYEN GELİN YERİM DAR DEMİŞ YERİNİ GENİŞLETMİŞLER YERİM DAR DEMİŞ</item>
+		<item>OYNAYACAK ADAM KAĞNI GICIRTISINDA DA OYNAR</item>
+		<item>OYNAYAMAYAN GELİN YERİM DAR DER</item>
+		<item>ÖDÜNÇ GÜLE GÜLE GİDER AĞLAYA AĞLAYA GELİR</item>
+		<item>ÖFKE BALDAN TATLIDIR</item>
+		<item>ÖFKEDE AKIL OLMAZ</item>
+		<item>ÖFKEYLE KALKAN ZARARLA OTURUR</item>
+		<item>ÖĞÜT BİR HAZİNE KADAR DEĞERLİ OLDUĞU HALDE BEDAVA VERİLİR</item>
+		<item>ÖKÜZ ALTINDA BUZAĞI ARANMAZ</item>
+		<item>ÖLECEK TAVŞAN ÇOMAĞA KARŞI GELİR</item>
+		<item>ÖLENLE ÖLÜNMEZ</item>
+		<item>ÖLMÜŞ KOYUN KURTTAN KORKMAZ</item>
+		<item>ÖLÜM İLE ÖÇ ALINMAZ</item>
+		<item>ÖLÜM KALIM BİZİM İÇİN</item>
+		<item>ÖLÜMÜ GÖREN HASTALIĞA RAZI OLUR</item>
+		<item>ÖNCE CAN SONRA CANAN</item>
+		<item>ÖNCE DÜŞÜN SONRA SÖYLE</item>
+		<item>ÖPÜLECEK EL ISIRILMAZ</item>
+		<item>ÖZ AĞLAMAYINCA GÖZ AĞLAMAZ</item>
+		<item>PAÇA ISLANMADAN BALIK TUTULMAZ</item>
+		<item>PADİŞAHIN BİLE ARKASINDAN KILIÇ SALLARLAR</item>
+		<item>PAPAZ HERGÜN PİLAV YEMEZ</item>
+		<item>PARA İLE İMANIN KİMDE OLDUĞU BELLİ OLMAZ</item>
+		<item>PARA İYİ BİR UŞAK KÖTÜ BİR EFENDİDİR</item>
+		<item>PARA PARA KAZANIR KOÇYİĞİT BAĞ BELLER</item>
+		<item>PARA PARAYI ÇEKER</item>
+		<item>PARANIN YÜZÜ SICAKTIR</item>
+		<item>PARAYI VEREN DÜDÜĞÜ ÇALAR</item>
+		<item>PERŞEMBENİN GELİŞİ ÇARŞAMBADAN BELLİDİR</item>
+		<item>PİLAV YİYEN KAŞIĞINI YANINDA TAŞIR</item>
+		<item>PİLAVDAN DÖNE KAŞIĞIN SAPI KIRILSIN</item>
+		<item>PİŞMİŞ AŞA SU KATAN İŞİ BOZAN KİŞİYİ TANIMLAR</item>
+		<item>RAĞBET GÜZEL İLE ZENGİNEDİR</item>
+		<item>RAMAZANDA YALAN SÖYLEYENİN BAYRAMDA YÜZÜ KARA OLUR</item>
+		<item>RENÇBER KIRK YILDA TÜCCAR KIRK GÜNDE</item>
+		<item>RÜŞVET KAPIDAN GİRİNCE İNSAF BACADAN ÇIKAR</item>
+		<item>RÜŞVET KAPIDAN GİRİNCE İNSAF KAPIDAN ÇIKAR</item>
+		<item>RÜZGAR EKEN FIRTINA BİÇER</item>
+		<item>RÜZGAR ESMEYİNCE YAPRAK OYNAMAZ</item>
+		<item>RÜZGARA TÜKÜREN KENDİ YÜZÜNE TÜKÜRÜR</item>
+		<item>RÜZGARIN ÖNÜNE DÜŞMEYEN YORULUR</item>
+		<item>SABAH OLA HAYIR OLA</item>
+		<item>SABAH SÜRÇEN GECEYE DEK SÜRÇER</item>
+		<item>SABIR ACIDIR MEYVESİ TATLIDIR</item>
+		<item>SABIRLA KORUK HELVA DUT YAĞRAĞI ATLAS OLUR</item>
+		<item>SABREDEN DERVİŞ MURADINA ERMİŞ</item>
+		<item>SABREYLE İŞİNE HAYIR GELSİN BAŞINA</item>
+		<item>SABRIN SONU SELAMETTİR</item>
+		<item>SAÇ KIVAMINI BULUR HAMUR TÜKENİR YAŞ KIVAMINI BULUR ÖMÜR TÜKENİR</item>
+		<item>SAÇ SEFADAN TIRNAK CEFADAN UZAR</item>
+		<item>SAÇIN AKMI KARAMI ÖNÜNE DÜŞÜNCE GÖRÜRSÜN</item>
+		<item>SADIK DOST AKRABADAN YEĞDİR</item>
+		<item>SAĞ BAŞ YASTIK İSTEMEZ</item>
+		<item>SAĞ ELİN VERDİĞİNİ SOL ELİN GÖRMESİN</item>
+		<item>SAĞ OLSUNDA DAĞ ARDINDA BULUNSUN</item>
+		<item>SAĞIR BİR KOCAYLA KÖR BİR KADIN MUTLU BİR ÇİFTTİR</item>
+		<item>SAĞIR İŞİTMEZ UYDURUR</item>
+		<item>SAĞLIK VARLIKTAN YEĞDİR</item>
+		<item>SAHİPSİZ KAPI ANAHTARSIZ AÇILIR</item>
+		<item>SAKINILAN GÖZE ÇÖP BATAR</item>
+		<item>SAKLA SAMANI GELİR ZAMANI</item>
+		<item>SAKSAĞAN DANAYI BABASI HAYRINA BİTLEMEZ</item>
+		<item>SAMUR KÜRKDE OLSA KABAHATLİ KİMSE ÜZERİNE ALMAZ</item>
+		<item>SANA TAŞLA VURANA SEN AŞLA VUR</item>
+		<item>SANA VEREYİM BİR ÖĞÜT KENDİ UNUNU ELİNLE ÖĞÜT</item>
+		<item>SANAT ALTIN BİLEZİKTİR</item>
+		<item>SANATI USTADAN GÖRMEYEN ÖĞRENEMEZ</item>
+		<item>SANATINA GÜVENENİN PARA AYAĞINA GELİR</item>
+		<item>SARHOŞLAR VE ÇOCUKLAR DOĞRULARI SÖYLERLER</item>
+		<item>SARI ÖKÜZÜN YANINDA DURAN YA HUYUNDAN YA TÜYÜNDEN KAPAR</item>
+		<item>SARIMSAĞI GELİN ETMİŞLER KIRK GÜN KOKUSU ÇIKMAMIŞ</item>
+		<item>SAY BENİ SAYAYIM SENİ</item>
+		<item>SAYILI GÜNLER TEZ GEÇER</item>
+		<item>SAYILI KOYUNU KURT KAPMAZ</item>
+		<item>SEBEPSİZ KUŞ BİLE UÇMAZ</item>
+		<item>SEFA İLE YENEN CEFA İLE KAZANILIR</item>
+		<item>SEL GİDER KUM KALIR</item>
+		<item>SEL İLE GELEN YEL İLE GİDER</item>
+		<item>SELAM KELAMDAN ÖNCEDİR</item>
+		<item>SELDEN GELEN SUYA GİDER</item>
+		<item>SEN AĞA BEN AĞA BU İNEĞİ KİM SAĞA</item>
+		<item>SEN BİLİRSİN DEYİNCE KAVGA OLMAZ</item>
+		<item>SEN İŞLERSEN MAL İŞLER İNSAN ÖYLE GENİŞLER</item>
+		<item>SEN İŞTEN KORKMA İŞ SENDEN KORKSUN</item>
+		<item>SEN OLURSAN BENSİZ BEN DE OLURUM SENSİZ</item>
+		<item>SERÇEDEN KORKAN DARI EKMEZ</item>
+		<item>SERMAYEN BİR YUMURTA İSE TAŞA ÇAL</item>
+		<item>SEV SENİ SEVENİ HAK İLE YEKSAN İSE SEVME SENİ SEVMEYENİ MISIRA SULTAN İSE</item>
+		<item>SEVENİN KULUYUM SEVMEYENİN SULTANI</item>
+		<item>SEVİLMEDİK OT İNSANIN BAŞUCUNDA BİTER</item>
+		<item>SEYREK GİDEN DOĞAN SIK GİDEN SOĞAN</item>
+		<item>SEYREK GİT DOSTUNA KALKSIN AYAK ÜSTÜNE</item>
+		<item>SEYREK GİTSEN DOSTUNA KALKSIN AYAK ÜSTÜNE</item>
+		<item>SIÇAN ÇIKTIĞI DELİĞİ BİLİR</item>
+		<item>SİNEK KÜÇÜKTÜR AMA MİDE BULANDIRIR</item>
+		<item>SİNEK PEKMEZCİYİ TANIR</item>
+		<item>SIRÇA KÖŞKTE OTURAN KOMŞUSUNA TAŞ ATMAMALIDIR</item>
+		<item>SİRKEYİ SARIMSAĞI DÜŞÜNEN PAÇAYI YİYEMEZ</item>
+		<item>SOFU SOĞAN YEMEZ BULUNCA SAPINI KOMAZ</item>
+		<item>SOĞANI YİYEN BİLMEZ DOĞRAYAN BİLİR</item>
+		<item>SON GÜLEN İYİ GÜLER</item>
+		<item>SON PİŞMANLIK FAYDA VERMEZ</item>
+		<item>SONA KALAN DONA KALIR</item>
+		<item>SONRADAN GELEN DEVLET DEVLET DEĞİLDİR</item>
+		<item>SONRADAN GÖRME KULDAN BULUTTAN ÇIKMA GÜNDEN KORKULUR</item>
+		<item>SORA SORA BAĞDAT BULUNUR</item>
+		<item>SORAN YANILMAMIŞ</item>
+		<item>SORMA KİŞİNİN ASLINI SOHBETİNDEN BELLİDİR</item>
+		<item>SORMAK AYIP DEĞİL SORMAMAK AYIP</item>
+		<item>SÖYLEYENDEN DİNLEYEN ARİF GEREK</item>
+		<item>SÖZ AĞIZDAN ÇIKAR</item>
+		<item>SÖZ GÜMÜŞSE SÜKUT ALTINDIR</item>
+		<item>SÖZ VAR İŞ BİTİRİR SÖZ VAR BAŞ YİTİRİR</item>
+		<item>SÖZ VERME VERDİNSE DÖNME</item>
+		<item>SÖZÜNÜ BİL PİŞİR AĞZINDA DER DEVŞİR</item>
+		<item>SU KÜÇÜĞÜN SÖZ BÜYÜĞÜN</item>
+		<item>SU AKARKEN TESTİYİ DOLDURMALI</item>
+		<item>SU BAŞINDAN KESİLİR</item>
+		<item>SU BULANMAYINCA DURULMAZ</item>
+		<item>SU BULUNUNCA TEYEMMÜM BOZULUR</item>
+		<item>SU İÇENE YILAN BİLE DOKUNMAZ</item>
+		<item>SU TESTİSİ SU YOLUNDA KIRILIR</item>
+		<item>SU UYUR DÜŞMAN UYUMAZ</item>
+		<item>SÜKÜT İKRARDAN GELİR</item>
+		<item>SÜRÜDEN AYRILANI KURT KAPAR</item>
+		<item>SÜT TAŞINCA KEPÇEYE BAHA OLMAZ</item>
+		<item>SÜTTEN AĞZI YANAN AYRANI ÜFLEYEREK İÇER</item>
+		<item>SUYU HAVANA KOY DÖV DÖV YİNE SU</item>
+		<item>ŞAHİN İLE DEVE AVLANMAZ</item>
+		<item>ŞAHİN SİNEK AVLAMAZ</item>
+		<item>ŞAKANIN SONU KAKADIR</item>
+		<item>ŞAP İLE ŞEKER BİR DEĞİL</item>
+		<item>ŞAPKASI DAR GELEN BAŞIM BÜYÜK SANIR</item>
+		<item>ŞARAPTAN BOZMA SİRKE KESKİN OLUR</item>
+		<item>ŞAŞKIN ÖRDEK BAŞINI BIRAKIR KIÇINDAN DALAR</item>
+		<item>ŞERİATIN KESTİĞİ PARMAK ACIMAZ</item>
+		<item>ŞEYH UÇMAZ MÜRİDİ UÇURUR</item>
+		<item>ŞEYTANIN DOSTLUĞU DARAĞACINA KADARDIR</item>
+		<item>ŞEYTANLA KABAK EKENİN KABAK BAŞINA PATLAR</item>
+		<item>ŞEYTANLA SAMAN EKEN SAPINI ALIR</item>
+		<item>ŞIK ŞIK EDEN NALÇADIR İŞ BİTİREN AKÇADIR</item>
+		<item>ŞİMŞEK ÇAKMADAN GÖK GÜRLEMEZ</item>
+		<item>ŞÖHRET AFETTİR</item>
+		<item>ŞU DÜNYANIN BİN BİR TÜRLÜ HALİ VAR</item>
+		<item>TABAK SEVDİĞİ DERİYİ YERDEN YERE ÇARPAR</item>
+		<item>TAN YERİ AĞARINCA HIRSIZIN GÖZÜ KARARIR</item>
+		<item>TARLADA İZİ OLMAYANIN HARMANDA YÜZÜ OLMAZ</item>
+		<item>TARLANIN İYİSİ SUYA YAKIN DAHA İYİSİ EVE YAKIN</item>
+		<item>TARLAYA SABAN SÜRÜYE ÇOBAN</item>
+		<item>TAŞ DÜŞTÜĞÜ YERDE AĞIRDIR</item>
+		<item>TAŞIMA SU İLE DEĞİRMEN DÖNMEZ</item>
+		<item>TATLI DİL YILANI DELİĞİNDEN ÇIKARIR</item>
+		<item>TATLI SÖZ DİNLETİR TATSIZ SÖZ ESNETİR</item>
+		<item>TATLI SÖZ CAN AZIĞI ACI SÖZ BAŞ KAZIĞI</item>
+		<item>TATLI TATLI YEMENİN ACI ACI GEĞİRMESİ OLUR</item>
+		<item>TATLI YE TATLI SÖYLE</item>
+		<item>TATSIZ AŞA TUZ NEYLESİN AKILSIZ BAŞA SÖZ NEYLESİN</item>
+		<item>TAVŞAN DAĞA KÜSMÜŞ DAĞIN HABERİ OLMAMIŞ</item>
+		<item>TAVŞANI TAZI TUTAR ÇALIMI AVCI SATAR</item>
+		<item>TAYFANIN AKILLISI GEMİNİN DÜMENİNDEN UZAK DURUR</item>
+		<item>TEBDİLİ MEKANDA FERAHLIK VARDIR</item>
+		<item>TEK KANATLA KUŞ UÇMAZ</item>
+		<item>TEKKEYİ BEKLEYEN ÇORBAYI İÇER</item>
+		<item>TEMBELE İŞ BUYUR SANA AKIL ÖĞRETSİN</item>
+		<item>TEMİZ İŞ ALTI AYDA ÇIKAR</item>
+		<item>TENCERE DİBİN KARA SENİNKİ BENDEN KARA</item>
+		<item>TERAZİ TARTIYLA HER ŞEY VAKTİYLE</item>
+		<item>TERAZİ VAR TARTI VAR HER ŞEYİN BİR VAKTİ VAR</item>
+		<item>TERECİYE TERE SATILMAZ</item>
+		<item>TERZİ KENDİ SÖKÜĞÜNÜ DİKEMEZ</item>
+		<item>TEŞBİHTE HATA OLMAZ</item>
+		<item>TESTİYİ KIRAN DA BİR SUYU GETİREN DE</item>
+		<item>TEVEKKELİN GEMİSİ BATMAZ</item>
+		<item>TİLKİ TİLKİLİĞİNİ BİLDİRİNCEYE KADAR POST ELDEN GİDER</item>
+		<item>TİLKİNİN DÖNÜP DOLAŞIP GELECEĞİ YER KÜRKÇÜ DÜKKANIDIR</item>
+		<item>TIRNAĞIN VARSA BAŞINI KAŞI</item>
+		<item>TOK AÇIN HALİNDEN BİLMEZ</item>
+		<item>TOPRAĞI İŞLEYEN EKMEĞİ DİŞLER</item>
+		<item>TÜRKÜN AKLI SONRADAN GELİR</item>
+		<item>TUTULMAYAN HIRSIZ BEYDEN BÜYÜKTÜR</item>
+		<item>TUTULMAYAN UĞRU BEYDEN DOĞRU</item>
+		<item>TUZ EKMEK HAKKINI BİLMEYEN KÖR OLUR</item>
+		<item>UCUZ ALAN PAHALI ALIR</item>
+		<item>UCUZ ETİN YAHNİSİ YAVAN OLUR</item>
+		<item>UCUZ ETİN YAHNİSİ YENMEZ</item>
+		<item>UCUZDUR VARDIR İLLETİ PAHALIDIR VARDIR HİKMETİ</item>
+		<item>ULU SÖZÜ DİNLEMEYEN UYUYAKALIR</item>
+		<item>ULU SÖZÜ TUTMAYAN ULUR</item>
+		<item>ULULAR KÖPRÜ OLSA BASIP GEÇME</item>
+		<item>UMMADIĞIN TAŞ BAŞ YARAR</item>
+		<item>UMUT FAKİRİN EKMEĞİDİR</item>
+		<item>USTANIN ÇEKİCİ BİN ALTIN</item>
+		<item>UTANMA PAZAR DOSTLUĞU BOZAR</item>
+		<item>UYUYAN YILANIN KUYRUĞUNA BASMA</item>
+		<item>ÜÇ GÖÇ BİR YANGIN YERİNİ TUTAR</item>
+		<item>ÜÇ KURUŞLUK EŞEĞİN BEŞ PARALIK SIPASI OLUR</item>
+		<item>ÜÇLENMEMİŞ EKEN OLMAMIŞ BİÇER</item>
+		<item>ÜRÜMESİNİ BİLMEYEN KÖPEK SÜRÜYE KURT GETİRİR</item>
+		<item>ÜRÜYEN KÖPEK ISIRMAZ</item>
+		<item>ÜŞENENİN OĞLU KIZI OLMAMIŞ</item>
+		<item>ÜVEYE ETME ÖZÜNDE BULURSUN GELİNE ETME KIZINDA BULURSUN</item>
+		<item>ÜZÜM ÜZÜME BAKA BAKA KARARIR</item>
+		<item>ÜZÜMÜ YE BAĞINI SORMA</item>
+		<item>VAKİT NAKİTTİR</item>
+		<item>VAKİTSİZ ÖTEN HOROZUN BAŞINI KESERLER</item>
+		<item>VAR EVİ KEREM EVİ YOK EVİ VEREM EVİ</item>
+		<item>VAR NE BİLSİN YOK HALİNDEN</item>
+		<item>VAR VARLATIR YOK SÖYLETİR</item>
+		<item>VARINI VEREN UTANMAMIŞ</item>
+		<item>VARSA PULUN HERKES KULUN YOKSA PULUN DARDIR YOLUN</item>
+		<item>VARSA HÜNERİN VAR HER YERDE YERİN YOKSA HÜNERİN VAR HER YERDE YERİN</item>
+		<item>VEREN ELİ HERKES ÖPER</item>
+		<item>VERESİYE ŞARAP İÇEN İKİ KEZ SARHOŞ OLUR</item>
+		<item>VERİP PİŞMAN OLMAKTANSA VERMEYİP DÜŞMAN OLMAK YEĞDİR</item>
+		<item>VERİPTE KÖTÜ OLACAĞINA VERMEYİPTE KÖTÜ OL</item>
+		<item>VERİRSEN DOYUR VURURSAN DUYUR</item>
+		<item>VERİRSEN VERESİYE BATARSIN KARASUYA</item>
+		<item>VERMEMİŞ MABUT NEYLESİN MAHMUT</item>
+		<item>VERMEYİNCE MABUD NEYLESİN MAHMUD</item>
+		<item>VUR DEDİK ÖLDÜRDÜ</item>
+		<item>YA OLDUĞUN GİBİ GÖRÜN YA DA GÖRÜNDÜĞÜN GİBİ OL</item>
+		<item>YABANCI KOYUN KENARA YATAR</item>
+		<item>YAĞINA KIYMAYAN ÇÖREĞİNİ YAVAN YER</item>
+		<item>YAĞMUR TAVINA EKİLEN DARIDAN KOCASINDAN SONRA KALKAN KARIDAN HAYIR GELMEZ</item>
+		<item>YAĞMUR YAĞSA KIŞ DEĞİL Mİ KİŞİ HALİNİ BİLSE HOŞ DEĞİL Mİ</item>
+		<item>YAĞMURLU GÜN TAVUK SU İÇMEZ</item>
+		<item>YAKIN DOST HAYIRSIZ AKRABADAN YEĞDİR</item>
+		<item>YALANCI KİM İŞİTTİĞİNİ SÖYLEYEN</item>
+		<item>YALANCININ EVİ YANMIŞ KİMSE İNANMAMIŞ</item>
+		<item>YALANCININ MUMU YATSIYA KADAR YANAR</item>
+		<item>YALANCININ ŞAHİDİ ŞIRACI OLUR</item>
+		<item>YANLIŞ HESAP BAĞDATTAN DÖNER</item>
+		<item>YANLIZ KALANI KURT YER</item>
+		<item>YANLIZ ÖKÜZ ÇİFTE KOŞULMAZ</item>
+		<item>YANLIZ TAŞ DUVAR OLMAZ</item>
+		<item>YANLIZLIK ALLAHA MAHSUSTUR</item>
+		<item>YAPI TAŞI YAPIDAN KALMAZ</item>
+		<item>YAR YIKILDIĞI GÜN TOZAR</item>
+		<item>YARA SICAKKEN SARILIR</item>
+		<item>YARALI TAVŞANA SIKI ATILMAZ</item>
+		<item>YARASI OLAN GOCUNUR</item>
+		<item>YARDIMCININ YARDIMCISI OLUR</item>
+		<item>YARIM ELMA GÖNÜL ALMA</item>
+		<item>YARIM HEKİM CANDAN EDER YARIM HOCA DİNDEN EDER</item>
+		<item>YARINA KALAN DAVADAN KORKMA</item>
+		<item>YARINKİ KAZDAN BUGÜNKÜ TAVUK YEĞDİR</item>
+		<item>YAŞ KESEN BAŞ KESER</item>
+		<item>YAŞIN YANINDA KURUDA YANAR</item>
+		<item>YATAN ASLANDAN GEZEN TİLKİ YEĞDİR</item>
+		<item>YATANIN YÜREĞİNE BORCU VAR</item>
+		<item>YATTIĞI AHIR SEKİSİ ÇAĞIRDIĞI İSTANBUL TÜRKÜSÜ</item>
+		<item>YAVAŞ ATIN ÇİFTESİ PEK OLUR</item>
+		<item>YAVAŞ HUYLU ATIN ÇİFTESİ PEK OLUR</item>
+		<item>YAVUZ AT YEMİNİ KENDİ ARTIRIR</item>
+		<item>YAVUZ HIRSIZ EV SAHİBİNİ BASTIRIR</item>
+		<item>YAZA ÇIKARDIK DANAYI BEĞENMEZ OLDU ANAYI</item>
+		<item>YAZIN BAŞI PİŞENİN KIŞIN AŞI PİŞER</item>
+		<item>YAZIN GÖLGE HOŞ KIŞIN ÇUVAL BOŞ</item>
+		<item>YAZIN GÖLGE KOVAN KIŞIN KARIN OVAR</item>
+		<item>YE KÜRKÜM YE</item>
+		<item>YEĞNİĞİ YEL ALIR AĞIR YERİNDE KALIR</item>
+		<item>YEL GELEN DELİĞİ KAPAMALI</item>
+		<item>YEL KAYADAN NE KOPARIR</item>
+		<item>YEMEYENİN MALINI YERLER</item>
+		<item>YENECEK AŞ BUĞUNDAN BELLİ OLUR</item>
+		<item>YENİ TESTİ SUYU SOĞUK TUTAR</item>
+		<item>YENİLEN PEHLİVAN GÜREŞE DOYMAZ</item>
+		<item>YERDEKİ YÜZE BASILMAZ</item>
+		<item>YERİN KULAĞI VAR</item>
+		<item>YİĞİDİ ÖLDÜR HAKKINI YEME</item>
+		<item>YİĞİDİN MALI MEYDANDADIR</item>
+		<item>YİĞİDİN SÖZÜ DEMİRİN KERTİĞİ</item>
+		<item>YİĞİT ARKASINDAN VURULMAZ</item>
+		<item>YİĞİT MEYDANDA BELLİ OLUR</item>
+		<item>YİĞİT YARASINA YİĞİT KATLANIR</item>
+		<item>YIL HARMANSIZ KALMAZ</item>
+		<item>YIL UĞURSUZUN</item>
+		<item>YILANA YUMUŞAK DİYE EL SUNMA</item>
+		<item>YILANIN BAŞI KÜÇÜKKEN EZİLMELİ</item>
+		<item>YILANIN SEVMEDİĞİ OT DELİĞİNİN AĞZINDA BİTER</item>
+		<item>YIRTICI KUŞUN ÖMRÜ AZ OLUR</item>
+		<item>YİYEN BİLMEZ DOĞRAYAN BİLİR</item>
+		<item>YOĞURDUM EKŞİDİR DİYEN OLMAZ</item>
+		<item>YOKSUL ALA ATA BİNSE SELAM DURMAZ</item>
+		<item>YOKTAN YONGA ÇIKMAZ</item>
+		<item>YOL BİLEN KERVANA KATILMAZ</item>
+		<item>YOL SORMAKLA BULUNUR</item>
+		<item>YOL YÜRÜMEKLE BORÇ ÖDEMEKLE TÜKENİR</item>
+		<item>YOL YÜRÜMEKLE BORÇ VERMEKLE BİTER</item>
+		<item>YOLCU YOLUNDA GEREK</item>
+		<item>YOLDAN GİDEN YORULMAZ</item>
+		<item>YOLDAN KAL YOLDAŞTAN KALMA</item>
+		<item>YOLU SORMAK KAYBOLMAKTAN İYİDİR</item>
+		<item>YÖRÜĞÜN GÖÇÜ GİDE GİDE DÜZELİR</item>
+		<item>YULARSIZ ATA BİNİLMEZ</item>
+		<item>YURDUN OTLUSUNDAN KUTLUSU YEĞDİR</item>
+		<item>YÜRÜK AT YEMİNİ KENDİ ARTTIRIR</item>
+		<item>YÜRÜK ATA KAMÇI DEĞMEZ</item>
+		<item>YUVARLANAN TAŞ YOSUN TUTMAZ</item>
+		<item>YUVAYI DİŞİ KUŞ YAPAR</item>
+		<item>YUVAYI YAPAN DİŞİ KUŞTUR</item>
+		<item>YÜZ VERME ARSIZ OLUR AZ VERME HIRSIZ OLUR</item>
+		<item>YÜZ YÜZDEN UTANIR</item>
+		<item>YÜZÜ GÜZEL OLANI DEĞİL HUYU GÜZEL OLANI SEV</item>
+		<item>YÜZÜ GÜZEL OLANIN HUYU GÜZELDİR</item>
+		<item>ZAHİRENİN AMBARI SABANIN UCUNDADIR</item>
+		<item>ZAHMETSİZ RAHMET OLMAZ</item>
+		<item>ZAMAN SANA UYMAZSA SEN ZAMANA UY</item>
+		<item>ZARARIN NERESİNDEN DÖNÜLSE KARDIR</item>
+		<item>ZEMHERİDEN SONRA EKİLEN DARIDAN KOCASINDAN SONRA KALKAN KARIDAN HAYIR GELMEZ</item>
+		<item>ZENGİN ADAM ELİNDEKİ KENDİNE YETEN ADAMDIR</item>
+		<item>ZENGİN ARABASINI DAĞDAN AŞIRIR ZÜĞÜRT DÜZ OVADA YOLUNU ŞAŞIRIR</item>
+		<item>ZENGİN GİYERSE SAĞLICAKLA FAKİR GİYERSE NEREDEN BULDUN Kİ DERLER</item>
+		<item>ZENGİNİN AYAKUCUNDA UYUYACAĞINA FAKİRİN BAŞUCUNDA UYU</item>
+		<item>ZENGİNİN AYIBI FUKARANIN HASTALIĞI MEYDANA ÇIKMAZ</item>
+		<item>ZENGİNİN GÖNLÜ OLANA KADAR FAKİRİN CANI ÇIKAR</item>
+		<item>ZENGİNİN HOROZU BİLE YUMURTLAR</item>
+		<item>ZENGİNİN KAĞNISI DAĞDAN AŞAR FAKİRİN EŞEĞİ DÜZ YOLDA ŞAŞAR</item>
+		<item>ZENGİNİN MALI FAKİRİN AĞZINI YORAR</item>
+		<item>ZENGİNİN MALI FAKİRİN DÖLÜ KIYMETLİ OLUR</item>
+		<item>ZENGİNİN MALI ZÜĞÜRDÜN ÇENESİNİ YORAR</item>
+		<item>ZENGİNLİKLE SICAKTAN ZARAR GELMEZ</item>
+		<item>ZIRVA TEVİL GÖTÜRMEZ</item>
+		<item>ZOR KAPIDAN GİRERSE ŞERİAT BACADAN ÇIKAR</item>
+		<item>ZOR OYUNU BOZAR</item>
+		<item>ZORA DAĞLAR DAYANMAZ</item>
+		<item>ZORLA GÜZELLİK OLMAZ</item>
+		<item>ZÜĞÜRT OLUP DÜŞÜNMEKTENSE UYUZ OLUP KAŞINMAK YEĞDİR</item>
+		<item>ZÜĞÜRTLÜK ZADELİĞİ BOZAR</item>
+		<item>ZURNADA PEŞREV OLMAZ</item>
+     </string-array><string name="app_name">Adam Asmaca</string><string-array name="isimler">
+	    <item>ABDULLAH GÜL</item>
+		<item>ACUN ILICALI</item>
+		<item>ADİLE NAŞİT</item>
+		<item>ADNAN MENDERES</item>
+		<item>AHMET ALKAN</item>
+		<item>AHMET DAVUTOĞLU</item>
+		<item>AHMET HAŞİM</item>
+		<item>AHMET KAYA</item>
+		<item>AHMET ÖZHAN</item>
+		<item>AHU YAĞTU</item>
+		<item>AJDA PEKKAN</item>
+		<item>ALİ BABACAN</item>
+		<item>ALİ BARDAKOĞLU</item>
+		<item>ALİ ŞEN</item>
+		<item>ARZUM ONAN</item>
+		<item>ASLİ ERDOĞAN</item>
+		<item>ASUMAN KRAUSE</item>
+		<item>AŞIK VEYSEL ŞATIROĞLU</item>
+		<item>ATA DEMİRER</item>
+		<item>ATİLLA İLHAN</item>
+		<item>AYDIN DOĞAN</item>
+		<item>AYHAN IŞIK</item>
+		<item>AYSUN KAYACI</item>
+		<item>AYŞE ÖZYILMAZEL</item>
+		<item>AZER BÜLBÜL</item>
+		<item>AZİZ NESİN</item>
+		<item>AZRA AKIN</item>
+		<item>BARIŞ AKARSU</item>
+		<item>BEŞİR ATALAY</item>
+		<item>BEYAZIT ÖZTÜRK</item>
+		<item>BİROL ÜNEL</item>
+		<item>BÜLENT ARINÇ</item>
+		<item>BÜLENT ECZACIBAŞI</item>
+		<item>BÜLENT ERSOY</item>
+		<item>BÜŞRA PEKİN</item>
+		<item>CAHİT SITKI TARANCI</item>
+		<item>CAN BONOMO</item>
+		<item>CAN DÜNDAR</item>
+		<item>CAN YÜCEL</item>
+		<item>CEM UZAN</item>
+		<item>CEM YILMAZ</item>
+		<item>CÜNEYT ARKIN</item>
+		<item>ÇAĞLA KUBAT </item>
+		<item>ÇAĞLA ŞİKEL</item>
+		<item>DEMET EVGAR</item>
+		<item>DENİZ BAYKAL</item>
+		<item>DERYA ALABORA</item>
+		<item>DEVLET BAHÇELİ</item>
+		<item>DOĞA BEKLERİZ</item>
+		<item>EBRU GÜNDEŞ</item>
+		<item>EBRU POLAT</item>
+		<item>EBRU TURAN</item>
+		<item>ECE ERKEN</item>
+		<item>EDİZ HUN</item>
+		<item>ELİF ŞAFAK</item>
+		<item>EMRE ALTUĞ</item>
+		<item>ENİS BATUR</item>
+		<item>ERDAL ÖZYAĞCILAR</item>
+		<item>ERDOĞAN ATALAY</item>
+		<item>ERKAN MUSTAFA</item>
+		<item>EROL SANDER</item>
+		<item>FARUK NAFİZ ÇAMLIBEL</item>
+		<item>FATİH AKIN</item>
+		<item>FATMA GİRİK</item>
+		<item>FERDİ TAYFUR</item>
+		<item>FERHAT GÖÇER</item>
+		<item>FERİDUN KARAKAYA</item>
+		<item>FİLİZ AKIN</item>
+		<item>FİLİZ VURAL</item>
+		<item>GAMZE ÖZÇELİK</item>
+		<item>GÜLBEN ERGEN</item>
+		<item>GÜLCAN KARAHANCI</item>
+		<item>GÜLSE BİRSEL</item>
+		<item>GÜLŞEN BUBİKOĞLU</item>
+		<item>GÜNSELİ BAŞAR</item>
+		<item>GÜVEN KIRAÇ</item>
+		<item>HALE SOYGAZ</item>
+		<item>HALİDE EDİP ADIVAR</item>
+		<item>HALİL SEZAİ</item>
+		<item>HALİT ZİYA UŞAKLIGİL</item>
+		<item>HALUK BİLGİNER  </item>
+		<item>HİLAL CEBECİ</item>
+		<item>HÜLYA AVŞAR</item>
+		<item>HÜLYA KOÇYİĞİT</item>
+		<item>HÜSNÜ ŞENLENDİRİCİ</item>
+		<item>İCLAL AYDIN</item>
+		<item>İDİL ÜNER</item>
+		<item>İLHAN CAVCAV</item>
+		<item>KARTAL TİBET</item>
+		<item>KEMAL SUNAL</item>
+		<item>KENAN DOĞULU</item>
+		<item>KENAN İMİRZALIOĞLU</item>
+		<item>KEREMCEM DÜRÜK</item>
+		<item>KIVANÇ TATLITUĞ</item>
+		<item>LEVENT KAZAK</item>
+		<item>LEVENT KIRCA</item>
+		<item>MAZHAR ALANSON</item>
+		<item>MEHMET AKİF ERSOY</item>
+		<item>MEHMET AYDINLAR</item>
+		<item>MEHMET GÜNSUR</item>
+		<item>MEHMET ÖZ</item>
+		<item>MEHMET ŞİMŞEK</item>
+		<item>MELTEM CUMBUL</item>
+		<item>MERVE SEVİ</item>
+		<item>METİN AKPINAR</item>
+		<item>MURAT BOZ</item>
+		<item>MURAT DALKILIÇ</item>
+		<item>MURAT GÖĞEBAKAN</item>
+		<item>MUSTAFA CECELİ</item>
+		<item>MÜJDE AR</item>
+		<item>NAZAN ECKES</item>
+		<item>NAZIM HİKMET</item>
+		<item>NECİP FAZIL KISAKÜREK</item>
+		<item>NEHİR ERDOĞAN</item>
+		<item>NİHAT DOĞAN</item>
+		<item>NURİ ALÇO</item>
+		<item>OĞUZHAN KOÇ</item>
+		<item>OKAN BAYÜLGEN</item>
+		<item>OKTAY KAYNARCA</item>
+		<item>ORHAN PAMUK</item>
+		<item>ORHAN VELİ KANIK</item>
+		<item>OYA BAŞAR</item>
+		<item>ÖMER SEYFETTİN</item>
+		<item>ÖZGÜR ÇEVİK</item>
+		<item>ÖZHAN CANAYDIN</item>
+		<item>ÖZKAN UĞUR</item>
+		<item>RAFET EL ROMAN</item>
+		<item>RAHMİ KOÇ</item>
+		<item>RECEP AKDAĞ</item>
+		<item>RECEP TAYYİP ERDOĞAN</item>
+		<item>REŞAT NURİ GÜNTEKİN</item>
+		<item>SADRİ ALIŞIK</item>
+		<item>SADULLAH ERGİN</item>
+		<item>SAİT FAİK ABASIYANIK</item>
+		<item>SAKIP SABANCI</item>
+		<item>SEDAT PEKER</item>
+		<item>SERDAR ORTAÇ</item>
+		<item>SEREN SERENGİL</item>
+		<item>SERENAY SARIKAYA</item>
+		<item>SERTAB ERENER</item>
+		<item>SİBEL KEKİLLİ</item>
+		<item>SİNAN AKÇIL</item>
+		<item>SUAT KILIÇ</item>
+		<item>SUNAY AKIN</item>
+		<item>SÜHEYL UYGUR</item>
+		<item>SÜMER TİLMAÇ </item>
+		<item>ŞEBNEM DÖNMEZ</item>
+		<item>ŞEBNEM FERAH</item>
+		<item>ŞENER ŞEN</item>
+		<item>TANER BİRSEL</item>
+		<item>TANER TOLGA TARLACI</item>
+		<item>TANER YILDIZ</item>
+		<item>TANSU ÇİLLER</item>
+		<item>TARIK AKAN</item>
+		<item>TEVFİK FİKRET </item>
+		<item>TOLGA KAREL</item>
+		<item>TOLGAHAN SAYIŞMAN</item>
+		<item>TUBA BÜYÜKÜSTÜN</item>
+		<item>TUBA ÜNSAL</item>
+		<item>TUĞBA ÖZAY</item>
+		<item>TUĞÇE KAZAZ</item>
+		<item>TURGUT ÖZAL</item>
+		<item>UĞUR MUMCU</item>
+		<item>UĞUR YÜCEL</item>
+		<item>VEHBİ KOÇ</item>
+		<item>VİLDAN ATASEVER</item>
+		<item>VOLKAN KONAK</item>
+		<item>YAHYA KEMAL BEYATLI</item>
+		<item>YAŞAR KEMAL</item>
+		<item>YAVUZ BİNGÖL</item>
+		<item>YILDIZ KAPLAN</item>
+		<item>YILDIZ TİLBE</item>
+		<item>YILMAZ ERDOĞAN</item>
+		<item>YUNUS EMRE</item>
+		<item>YUSUF GÜNEY</item>
+		<item>ZEYNEP DEĞİRMENCİOĞLU</item>
+		<item>ZEYNEP TOKUŞ TUBA ÜNSAL</item>       
+    </string-array><string name="category_prompt">Soru kategorisi seçiniz</string><string-array name="sehirler">
+        <item>ADANA</item>
+		<item>ADIYAMAN</item>
+		<item>AFYONKARAHİSAR</item>
+		<item>AĞRI</item>
+		<item>AKSARAY</item>
+		<item>AMASYA</item>
+		<item>ANKARA</item>
+		<item>ANTALYA</item>
+		<item>ARDAHAN</item>
+		<item>ARTVİN</item>
+		<item>AYDIN</item>
+		<item>BALIKESİR</item>
+		<item>BARTIN</item>
+		<item>BATMAN</item>
+		<item>BAYBURT</item>
+		<item>BİLECİK</item>
+		<item>BİNGÖL</item>
+		<item>BİTLİS</item>
+		<item>BOLU</item>
+		<item>BURDUR</item>
+		<item>BURSA</item>
+		<item>ÇANAKKALE</item>
+		<item>ÇANKIRI</item>
+		<item>ÇORUM</item>
+		<item>DENİZLİ</item>
+		<item>DİYARBAKIR</item>
+		<item>DÜZCE</item>
+		<item>EDİRNE</item>
+		<item>ELAZIĞ</item>
+		<item>ERZİNCAN</item>
+		<item>ERZURUM</item>
+		<item>ESKİŞEHİR</item>
+		<item>GAZİANTEP</item>
+		<item>GİRESUN</item>
+		<item>GÜMÜŞHANE</item>
+		<item>HAKKARİ</item>
+		<item>HATAY</item>
+		<item>IĞDIR</item>
+		<item>ISPARTA</item>
+		<item>İSTANBUL</item>
+		<item>İZMİR</item>
+		<item>KAHRAMANMARAŞ</item>
+		<item>KARABÜK</item>
+		<item>KARAMAN</item>
+		<item>KARS</item>
+		<item>KASTAMONU</item>
+		<item>KAYSERİ</item>
+		<item>KIRIKKALE</item>
+		<item>KIRKLARELİ</item>
+		<item>KIRŞEHİR</item>
+		<item>KİLİS</item>
+		<item>KOCAELİ</item>
+		<item>KONYA</item>
+		<item>KÜTAHYA</item>
+		<item>MALATYA</item>
+		<item>MANİSA</item>
+		<item>MARDİN</item>
+		<item>MERSİN</item>
+		<item>MUĞLA</item>
+		<item>MUŞ</item>
+		<item>NEVŞEHİR</item>
+		<item>NİĞDE</item>
+		<item>ORDU</item>
+		<item>OSMANİYE</item>
+		<item>RİZE</item>
+		<item>SAKARYA</item>
+		<item>SAMSUN</item>
+		<item>SİİRT</item>
+		<item>SİNOP</item>
+		<item>SİVAS</item>
+		<item>ŞIRNAK</item>
+		<item>TEKİRDAĞ</item>
+		<item>TOKAT</item>
+		<item>TRABZON</item>
+		<item>TUNCELİ</item>
+		<item>ŞANLIURFA</item>
+		<item>UŞAK</item>
+		<item>VAN</item>
+		<item>YALOVA</item>
+		<item>YOZGAT</item>
+		<item>ZONGULDAK</item>
+     </string-array></file><file name="activity_highscores" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\layout\activity_highscores.xml" qualifiers="" type="layout"/><file path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="questionTextSize">25dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="hangmanMarginRight">20dp</dimen><dimen name="hangmanMarginVer">10dp</dimen><dimen name="scoreTextSize">40dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="questionMaxHeight">130dp</dimen><dimen name="questionMarginTop">10dp</dimen></file><file name="activity_menu" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\layout\activity_menu.xml" qualifiers="" type="layout"/><file name="activity_playscreen" path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\main\res\layout\activity_playscreen.xml" qualifiers="" type="layout"/></source><source path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\build\generated\res\rs\debug"/><source path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\h.ulutas\AndroidStudioProjects\Adam Asmaca\app\src\debug\res"/></dataSet><mergedItems/></merger>

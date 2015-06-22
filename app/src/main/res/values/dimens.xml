@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="questionTextSize">25dp</dimen>
+    <dimen name="hangmanMarginVer">10dp</dimen>
+    <dimen name="questionMaxHeight">130dp</dimen>
+    <dimen name="questionMarginTop">10dp</dimen>
+    <dimen name="scoreTextSize">40dp</dimen>
+    <dimen name="hangmanMarginRight">20dp</dimen>
+</resources>
