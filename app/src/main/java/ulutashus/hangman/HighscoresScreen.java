@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import ulutashus.hangman.db.HighScoresDb;
+
 public class HighscoresScreen extends Activity
 {
     private TextView[] categories_Text = new TextView[4];
-    private Database database;
+    private HighScoresDb database;
 
     @Override
     protected void onCreate(Bundle data)
@@ -20,7 +22,7 @@ public class HighscoresScreen extends Activity
         relateXML();
 
 /** DATABASE */
-        database = new Database(this);
+        database = new HighScoresDb(this);
         SQLiteDatabase db = database.getReadableDatabase();
         String[] SELECT = {"puan"};
         Cursor cursor = db.query("activity_highscores", SELECT, null, null, null, null, null);

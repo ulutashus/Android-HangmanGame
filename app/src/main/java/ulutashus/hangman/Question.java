@@ -45,10 +45,10 @@ public class Question
     static public void loadQuestions(Resources res)
     {
         QUESTIONS = new String[4][];
-        QUESTIONS[0] = res.getStringArray(R.array.atasozleri);
-        QUESTIONS[1] = res.getStringArray(R.array.isimler);
-        QUESTIONS[2] = res.getStringArray(R.array.sehirler);
-        QUESTIONS[3] = res.getStringArray(R.array.ulkeler);
+        QUESTIONS[0] = res.getStringArray(R.array.adage);
+        QUESTIONS[1] = res.getStringArray(R.array.famouses);
+        QUESTIONS[2] = res.getStringArray(R.array.cities);
+        QUESTIONS[3] = res.getStringArray(R.array.countries);
     }
 
     /*

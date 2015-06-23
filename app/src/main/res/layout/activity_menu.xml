@@ -42,7 +42,6 @@
                     android:id="@+id/spinner"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:entries="@array/category_array"
                     android:prompt="@string/category_prompt"/>
 
                 <Button
@@ -50,21 +49,21 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="25dp"
                     android:background="@drawable/yenioyun"
-                    android:onClick="startGameListener"/>
+                    android:onClick="onStartGameClick"/>
 
                 <Button
                     android:layout_width="170dp"
                     android:layout_height="25dp"
                     android:layout_marginTop="25dp"
                     android:background="@drawable/highscores"
-                    android:onClick="highscoresListener"/>
+                    android:onClick="onHighscoresClick"/>
 
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="25dp"
                     android:background="@drawable/cikis"
-                    android:onClick="exitListener"/>
+                    android:onClick="onExitClick"/>
             </LinearLayout>
 
         </TableRow>

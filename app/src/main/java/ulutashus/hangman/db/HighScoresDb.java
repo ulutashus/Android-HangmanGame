@@ -1,16 +1,16 @@
-package ulutashus.hangman;
+package ulutashus.hangman.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class Database extends SQLiteOpenHelper
+public class HighScoresDb extends SQLiteOpenHelper
 {
 
     private static final int VERSION = 1;
     private static final String NAME = "activity_highscores";
 
-    public Database(Context context)
+    public HighScoresDb(Context context)
     {
         super(context, NAME, null, VERSION);
     }
@@ -18,7 +18,7 @@ public class Database extends SQLiteOpenHelper
     @Override
     public void onCreate(SQLiteDatabase db)
     {
-        db.execSQL("CREATE TABLE activity_highscores (puan INTEGER);");
+        db.execSQL("CREATE TABLE activity_highscores (score INTEGER);");
     }
 
     @Override

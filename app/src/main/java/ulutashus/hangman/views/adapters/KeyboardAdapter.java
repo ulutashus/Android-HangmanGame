@@ -5,43 +5,46 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 
-import java.util.ArrayList;
-
 public class KeyboardAdapter extends BaseAdapter
 {
-    private ArrayList<Button> mButtons = null;
+    private String alphabet = null;
 
-    public KeyboardAdapter(ArrayList<Button> b)
+    public KeyboardAdapter(String alphabet)
     {
-        mButtons = b;
+        this.alphabet = alphabet;
     }
 
     @Override
     public int getCount()
     {
-        return mButtons.size();
+        return alphabet.length();
     }
 
     @Override
-    public Object getItem(int position)
+    public Object getItem(int i)
     {
-        return (Object) mButtons.get(position);
+        return (Object) alphabet.charAt(i);
     }
 
     @Override
-    public long getItemId(int position)
+    public long getItemId(int i)
     {
-        // in our case position and id are synonymous
-        return position;
+        return i;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
+    public View getView(int i, View convertView, ViewGroup parent)
     {
-        Button button;
+        Button button = null;
         if (convertView == null)
         {
-            button = mButtons.get(position);
+            button = new Button(parent.getContext());
+            button.setText(alphabet.charAt(i) + "");
+            button.setPadding(0, 0, 0, 0);
+            button.setTextSize(25);
+            button.setFocusable(false);
+            button.setFocusableInTouchMode(false);
+            button.setClickable(false);
         } else
         {
             button = (Button) convertView;

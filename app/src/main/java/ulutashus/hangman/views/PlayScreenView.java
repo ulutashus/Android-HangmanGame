@@ -1,12 +1,12 @@
-package ulutashus.hangman;
+package ulutashus.hangman.views;
 
-import android.app.Activity;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.FrameLayout;
@@ -16,11 +16,14 @@ import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
+import ulutashus.hangman.Point;
+import ulutashus.hangman.Question;
+import ulutashus.hangman.R;
+import ulutashus.hangman.controllers.PlayScreenController;
+import ulutashus.hangman.db.HighScoresDb;
 import ulutashus.hangman.views.adapters.KeyboardAdapter;
 
-public class PlayScreen extends Activity implements View.OnClickListener
+public class PlayScreenView extends ulutashus.androidmvc.View<PlayScreenController>
 {
     private RelativeLayout all_Table;
     private GridView keyboard_Layout;
@@ -41,9 +44,14 @@ public class PlayScreen extends Activity implements View.OnClickListener
     private int narrowTreeID; // Gosterilen dar agaci resim idsi
     private int gameType;
     private Point points;
-    private Database database;
+    private HighScoresDb database;
     private int[] highscores = new int[4];
     private boolean modified = false;
+
+    public PlayScreenView()
+    {
+        super(PlayScreenController.class);
+    }
 
     @Override
     public void onCreate(Bundle data)
@@ -52,8 +60,8 @@ public class PlayScreen extends Activity implements View.OnClickListener
 
         getHighScores();
         // Veriden oyun tipi ve zorlugu okunuyor
-        data = getIntent().getExtras();
-        gameType = data.getInt("questionType");
+//        data = getIntent().getExtras();
+//        gameType = data.getInt("questionType");
 
         // strings.xml dosyasindan sorular okunuyor
         Question.loadQuestions(getResources());
@@ -64,7 +72,7 @@ public class PlayScreen extends Activity implements View.OnClickListener
 
     private void getHighScores()
     {
-        database = new Database(this);
+        database = new HighScoresDb(this);
         SQLiteDatabase db = database.getReadableDatabase();
         String[] SELECT = {"puan"};
         Cursor cursor = db.query("activity_highscores", SELECT, null, null, null, null, null);
@@ -116,7 +124,7 @@ public class PlayScreen extends Activity implements View.OnClickListener
     }
 
     /**
-     * PlayScreen.java'yi activity_playscreen.xmlcreen.xml ile iliskilendiriyor.
+     * PlayScreenView.java'yi activity_playscreen.xmlcreen.xml ile iliskilendiriyor.
      */
     private void relateXML()
     {
@@ -256,23 +264,19 @@ public class PlayScreen extends Activity implements View.OnClickListener
     private void populateButtons()
     {
         String alphabet = getString(R.string.alphabet);
-        /* add buttons to gridview */
-        Button button = null;
-        ArrayList<Button> keyButtons = new ArrayList<Button>();
-        for (int i = 0; i < alphabet.length(); ++i)
+        keyboard_Layout.setAdapter(new KeyboardAdapter(alphabet));
+        keyboard_Layout.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
-            button = new Button(this);
-            button.setText(alphabet.charAt(i) + "");
-            button.setPadding(0, 0, 0, 0);
-            button.setTextSize(25);
-            button.setOnClickListener(this);
-            keyButtons.add(button);
-        }
-        keyboard_Layout.setAdapter(new KeyboardAdapter(keyButtons));
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
+            {
+                Button button = (Button) view;
+                onLetterClick(button);
+            }
+        });
     }
 
-    @Override
-    public void onClick(View view)
+    public void onLetterClick(View view)
     {
         view.setClickable(false);
         view.setEnabled(false);
@@ -282,5 +286,11 @@ public class PlayScreen extends Activity implements View.OnClickListener
         char ch = button.getText().charAt(0);
         if (game.checkAnswer(ch)) rightAnswer(ch);
         else wrongAnswer();
+    }
+
+    @Override
+    protected void initializeBindings()
+    {
+        super.initializeBindings();
     }
 }
