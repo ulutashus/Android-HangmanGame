@@ -1,6 +1,6 @@
 package ulutashus.androidmvc;
 
-public interface IPropertyListener
+public interface IPropertyListener<T>
 {
-    void onUpdated(Object oldValue, Object newValue);
+    void onUpdated(T newValue);
 }

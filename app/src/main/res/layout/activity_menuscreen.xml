@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <FrameLayout android:id="@+id/topEmptyArea"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="28"
+        android:orientation="horizontal">
+
+            <FrameLayout android:id="@+id/leftEmptyArea"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_message"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="@dimen/menu_spinner_width"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/category_prompt"/>
+
+                <Button
+                    android:layout_width="@dimen/menu_newgame_width"
+                    android:layout_height="@dimen/menu_newgame_height"
+                    android:layout_marginTop="@dimen/menu_button_margin"
+                    android:background="@drawable/yenioyun"
+                    android:onClick="onStartGameClick"/>
+
+                <Button
+                    android:layout_width="@dimen/menu_highscores_width"
+                    android:layout_height="@dimen/menu_highscores_height"
+                    android:layout_marginTop="@dimen/menu_button_margin"
+                    android:background="@drawable/highscores"
+                    android:onClick="onHighscoresClick"/>
+
+                <Button
+                    android:layout_width="@dimen/menu_exit_width"
+                    android:layout_height="@dimen/menu_exit_height"
+                    android:layout_marginTop="@dimen/menu_button_margin"
+                    android:background="@drawable/cikis"
+                    android:onClick="onExitClick"/>
+            </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout android:id="@+id/bottomEmptyArea"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+</LinearLayout>

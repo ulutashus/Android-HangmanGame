@@ -1,27 +1,35 @@
 package ulutashus.hangman.models;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import ulutashus.hangman.models.enums.Category;
+
 public class GameCategory
 {
-    private Categories category;
-    private int highScore;
+    private Category category;
+    private List<String> questions;
 
-    public GameCategory(Categories category)
+    public GameCategory(Category category)
     {
         this.category = category;
     }
 
-    public int getHighScore()
-    {
-        return highScore;
-    }
-
-    public void setHighScore(int highScore)
-    {
-        this.highScore = highScore;
-    }
-
-    public Categories getCategory()
+    public Category getCategory()
     {
         return category;
+    }
+
+    public String getRandomQuestion()
+    {
+        Random random = new Random();
+        int i = random.nextInt(questions.size());
+        return questions.remove(i);
+    }
+
+    public void setQuestions(List<String> questions)
+    {
+        this.questions = new ArrayList<>(questions);
     }
 }

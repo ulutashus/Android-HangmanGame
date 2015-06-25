@@ -10,17 +10,17 @@ import java.util.List;
 
 import ulutashus.androidmvc.IPropertyListener;
 import ulutashus.hangman.R;
-import ulutashus.hangman.controllers.MenuScreenController;
+import ulutashus.hangman.controllers.MenuController;
 import ulutashus.hangman.models.GameCategory;
 import ulutashus.hangman.views.adapters.CategoriesAdapter;
 
-public class MenuScreenView extends ulutashus.androidmvc.View<MenuScreenController>
+public class MenuScreenView extends ulutashus.androidmvc.View<MenuController>
 {
     private Spinner spinner;
 
     public MenuScreenView()
     {
-        super(MenuScreenController.class);
+        super(MenuController.class);
     }
 
     @Override
@@ -28,7 +28,7 @@ public class MenuScreenView extends ulutashus.androidmvc.View<MenuScreenControll
     {
         super.onCreate(data);
 
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_menuscreen);
         spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener()
         {
@@ -36,7 +36,7 @@ public class MenuScreenView extends ulutashus.androidmvc.View<MenuScreenControll
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l)
             {
                 GameCategory selectedType = (GameCategory) view.getTag();
-                getController().setSelectedCategory(selectedType);
+                getController().SelectedCategory.set(selectedType);
             }
 
             @Override
@@ -47,13 +47,18 @@ public class MenuScreenView extends ulutashus.androidmvc.View<MenuScreenControll
         });
     }
 
-    // region UI Listeners
+    @Override
+    protected void initializeBindings()
+    {
+        super.initializeBindings();
+
+        final Context view = this;
+        getController().AllCategories.addListener(this::onAllCategoriesChanged);
+    }
+
+    // region UI Events
     public void onStartGameClick(View v)
     {
-        // Bir veri objesi olusturuyoruz
-        Bundle data = new Bundle();
-        data.putInt("questionType", spinner.getSelectedItemPosition());
-
         getController().cmdNavigatePlayScreen();
     }
 
@@ -69,24 +74,11 @@ public class MenuScreenView extends ulutashus.androidmvc.View<MenuScreenControll
     }
     // endregion
 
-    // region View
-    @Override
-    protected void initializeBindings()
+    // region Bindings
+    private void onAllCategoriesChanged(List<GameCategory> newValue)
     {
-        super.initializeBindings();
-
-        final Context view = this;
-        getController().addListener(MenuScreenController.PrpAllCategories, new IPropertyListener()
-        {
-            @Override
-            public void onUpdated(Object oldValue, Object newValue)
-            {
-                List<GameCategory> allCategories = (List<GameCategory>)newValue;
-                CategoriesAdapter adapter = new CategoriesAdapter
-                        (view, android.R.layout.simple_spinner_item, allCategories);
-                spinner.setAdapter(adapter);
-            }
-        });
+        CategoriesAdapter adapter = new CategoriesAdapter(this, android.R.layout.simple_spinner_item, newValue);
+        spinner.setAdapter(adapter);
     }
     // endregion
 }

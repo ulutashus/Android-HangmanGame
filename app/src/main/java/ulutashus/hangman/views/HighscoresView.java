@@ -1,18 +1,24 @@
-package ulutashus.hangman;
+package ulutashus.hangman.views;
 
-import android.app.Activity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import ulutashus.hangman.R;
+import ulutashus.hangman.controllers.HighScoresController;
 import ulutashus.hangman.db.HighScoresDb;
 
-public class HighscoresScreen extends Activity
+public class HighScoresView  extends ulutashus.androidmvc.View<HighScoresController>
 {
     private TextView[] categories_Text = new TextView[4];
     private HighScoresDb database;
+
+    public HighScoresView()
+    {
+        super(HighScoresController.class);
+    }
 
     @Override
     protected void onCreate(Bundle data)

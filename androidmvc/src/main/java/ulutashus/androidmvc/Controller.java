@@ -1,15 +1,19 @@
 package ulutashus.androidmvc;
 
+import android.content.Context;
 import android.content.res.Resources;
 
-public abstract class Controller extends ObservableMap
+public abstract class Controller
 {
-    public final static String PrpNavigation = "PrpNavigation";
+    public final Property<Navigation> Navigation;
     private Resources resources;
+    private Context context;
 
-    public Controller(Resources resources)
+    public Controller(Resources resources, Context context)
     {
         this.resources = resources;
+        this.context = context;
+        this.Navigation = new Property<>();
     }
 
     public void onStart()
@@ -20,7 +24,7 @@ public abstract class Controller extends ObservableMap
     protected <T> void navigateToView(Class<?> viewClass, T controller)
     {
         Navigation navigation = new Navigation(viewClass, controller);
-        setNavigation(navigation);
+        Navigation.set(navigation);
     }
 
     protected Resources getResources()
@@ -28,15 +32,8 @@ public abstract class Controller extends ObservableMap
         return resources;
     }
 
-    // region PrpNavigation
-    private Navigation getNavigation()
+    protected Context getContext()
     {
-        return (Navigation) getValue(PrpNavigation);
+        return context;
     }
-
-    private void setNavigation(Navigation navigation)
-    {
-        setValue(PrpNavigation, navigation);
-    }
-    // endregion
 }

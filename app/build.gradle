@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
 android {
     compileSdkVersion 10
     buildToolsVersion "23.0.0 rc2"
@@ -8,8 +10,8 @@ android {
         minSdkVersion 10
         targetSdkVersion 10
         compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_5
-            targetCompatibility JavaVersion.VERSION_1_5
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
             encoding = 'ISO-8859-1'
         }
     }

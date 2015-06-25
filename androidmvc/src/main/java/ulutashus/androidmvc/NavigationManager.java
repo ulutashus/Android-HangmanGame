@@ -9,7 +9,7 @@ import java.util.UUID;
 
 class NavigationManager
 {
-    private static Map<String, Controller> NavigationDataMap = new HashMap<String, Controller>();
+    private static Map<String, Controller> NavigationDataMap = new HashMap<>();
     private final Activity activity;
 
     public NavigationManager(Activity activity)
@@ -25,8 +25,6 @@ class NavigationManager
         // Creating target intent
         Intent intent = new Intent(activity, navigation.getViewType());
         // Putting navigation data into Intent
-//        Bundle data = new Bundle();
-//        data.putString("id", navigationUuid);
         intent.putExtra("id", navigationUuid);
         // Start target activity
         activity.startActivity(intent);

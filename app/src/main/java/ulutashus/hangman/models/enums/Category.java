@@ -1,8 +1,8 @@
-package ulutashus.hangman.models;
+package ulutashus.hangman.models.enums;
 
 import ulutashus.hangman.R;
 
-public enum Categories
+public enum Category
 {
     Adage,
     Famous,
@@ -21,6 +21,22 @@ public enum Categories
                 return R.string.city;
             case Country:
                 return R.string.country;
+        }
+        return 0;
+    }
+
+    public int getRepositoryId()
+    {
+        switch (this)
+        {
+            case Adage:
+                return R.array.adage;
+            case Famous:
+                return R.array.famouses;
+            case City:
+                return R.array.cities;
+            case Country:
+                return R.array.countries;
         }
         return 0;
     }

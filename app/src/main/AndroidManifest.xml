@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name=".views.PlayScreenView"
+            android:name=".views.GameScreenView"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -32,7 +32,7 @@
         </activity>
 
         <activity
-            android:name=".HighscoresScreen"
+            android:name=".views.HighScoresView"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
