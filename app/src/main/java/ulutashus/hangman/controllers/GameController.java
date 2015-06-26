@@ -77,7 +77,6 @@ public class GameController extends Controller
             MoveCount.set(MoveCount.get() + 1);
             if (MoveCount.get() == maxMoveCount) // Game Over
             {
-                scoreManager.endRound();
                 Question.set(questionManager.getQuestion());
                 if (scoreManager.getTotalScore() > highScore)
                 {

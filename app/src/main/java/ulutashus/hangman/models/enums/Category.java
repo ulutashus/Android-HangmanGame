@@ -9,6 +9,22 @@ public enum Category
     City,
     Country;
 
+    public static Category createById(int id)
+    {
+        switch (id)
+        {
+            case R.string.adage:
+                return Adage;
+            case R.string.famous:
+                return Famous;
+            case R.string.city:
+                return City;
+            case R.string.country:
+                return Country;
+        }
+        throw new IllegalArgumentException();
+    }
+
     public int getId()
     {
         switch (this)
@@ -22,7 +38,7 @@ public enum Category
             case Country:
                 return R.string.country;
         }
-        return 0;
+        throw new IllegalArgumentException();
     }
 
     public int getRepositoryId()

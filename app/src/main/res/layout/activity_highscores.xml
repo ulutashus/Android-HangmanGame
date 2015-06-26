@@ -1,142 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:baselineAligned="false"
-    android:orientation="vertical"
-    android:weightSum="4">
+    android:orientation="vertical">
+    <FrameLayout android:id="@+id/topEmptyArea"
+                 android:layout_width="fill_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="11"/>
 
-    <!-- Her ekran boyutunda, ustte ayni oranda bosluk birakmasi icin -->
-    <FrameLayout
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="3"/>
+        android:layout_height="0dp"
+        android:layout_weight="28"
+        android:orientation="horizontal">
 
-    <TableLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        <FrameLayout android:id="@+id/leftEmptyArea"
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"/>
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="top|center"
+            android:orientation="vertical">
 
-            <!-- Her ekran boyutunda, solda ayni oranda bosluk birakmasi icin -->
-            <FrameLayout
-                android:layout_height="fill_parent"
-                android:layout_weight=".20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="REKORLAR"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"/>
 
-            <LinearLayout
-                android:layout_height="fill_parent"
-                android:layout_marginLeft="80dp"
-                android:layout_weight=".80"
-                android:gravity="center"
-                android:orientation="vertical">
+            <ListView
+                android:id="@+id/highScoresList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:dividerHeight="10dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="REKORLAR"
-                    android:textColor="#FFFFFF"
-                    android:textSize="30dp"/>
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/linearLayout1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:orientation="horizontal">
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:gravity="left"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="30dp"
-                            android:text="Atasözleri"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="30dp"
-                            android:text="İsim"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="30dp"
-                            android:text="Şehir"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="30dp"
-                            android:text="Ülke"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/kategori1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:id="@+id/kategori2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:id="@+id/kategori3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:id="@+id/kategori4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textColor="#FFFFFF"
-                            android:textSize="17dp"/>
-                    </LinearLayout>
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/Menu"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="menuListener"
-                    android:text="Menü"/>
-
-            </LinearLayout>
-        </TableRow>
-    </TableLayout>
+    <FrameLayout android:id="@+id/bottomEmptyArea"
+                 android:layout_width="fill_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="6"/>
 </LinearLayout>

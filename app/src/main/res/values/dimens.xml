@@ -18,4 +18,5 @@
     <dimen name="menu_highscores_height">25dp</dimen>
     <dimen name="menu_exit_height">30dp</dimen>
     <dimen name="menu_button_margin">25dp</dimen>
+    <dimen name="highscores_text_size">20dp</dimen>
 </resources>

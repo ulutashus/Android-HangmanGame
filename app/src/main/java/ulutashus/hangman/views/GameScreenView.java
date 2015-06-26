@@ -96,10 +96,13 @@ public class GameScreenView extends ulutashus.androidmvc.View<GameController>
     // region UI Events
     public void onLetterClick(Button button)
     {
-        button.setClickable(false);
-        button.setEnabled(false);
-        char ch = button.getText().charAt(0);
-        getController().cmdMakeGuess(ch);
+        if(button.isEnabled())
+        {
+            button.setClickable(false);
+            button.setEnabled(false);
+            char ch = button.getText().charAt(0);
+            getController().cmdMakeGuess(ch);
+        }
     }
 
     public void onNextGameClick(View v)

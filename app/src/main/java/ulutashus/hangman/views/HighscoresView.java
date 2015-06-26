@@ -4,16 +4,20 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.List;
 
 import ulutashus.hangman.R;
 import ulutashus.hangman.controllers.HighScoresController;
 import ulutashus.hangman.db.HighScoresDb;
+import ulutashus.hangman.models.HighScore;
+import ulutashus.hangman.views.adapters.HighScoresAdapter;
 
 public class HighScoresView  extends ulutashus.androidmvc.View<HighScoresController>
 {
-    private TextView[] categories_Text = new TextView[4];
-    private HighScoresDb database;
+    private ListView highScores_list;
 
     public HighScoresView()
     {
@@ -24,34 +28,25 @@ public class HighScoresView  extends ulutashus.androidmvc.View<HighScoresControl
     protected void onCreate(Bundle data)
     {
         super.onCreate(data);
-
-        relateXML();
-
-/** DATABASE */
-        database = new HighScoresDb(this);
-        SQLiteDatabase db = database.getReadableDatabase();
-        String[] SELECT = {"puan"};
-        Cursor cursor = db.query("activity_highscores", SELECT, null, null, null, null, null);
-        startManagingCursor(cursor);
-        for (int i = 0; cursor.moveToNext(); ++i)
-        {
-            Integer score = cursor.getInt(cursor.getColumnIndex("puan"));
-            categories_Text[i].setText(score.toString());
-        }
+        initializeFields();
     }
 
-    private void relateXML()
+    @Override
+    protected void initializeBindings()
+    {
+        super.initializeBindings();
+        getController().HighScores.addListener(this::onHighScoresChanged);
+    }
+
+    private void initializeFields()
     {
         setContentView(R.layout.activity_highscores);
-
-        categories_Text[0] = (TextView) findViewById(R.id.kategori1);
-        categories_Text[1] = (TextView) findViewById(R.id.kategori2);
-        categories_Text[2] = (TextView) findViewById(R.id.kategori3);
-        categories_Text[3] = (TextView) findViewById(R.id.kategori4);
+        highScores_list = (ListView) findViewById(R.id.highScoresList);
     }
 
-    public void menuListener(View v)
+    private void onHighScoresChanged(List<HighScore> highScores)
     {
-        finish();
+        HighScoresAdapter adapter = new HighScoresAdapter(highScores);
+        highScores_list.setAdapter(adapter);
     }
 }

@@ -23,7 +23,7 @@ public class KeyboardAdapter extends BaseAdapter
     @Override
     public Object getItem(int i)
     {
-        return (Object) alphabet.charAt(i);
+        return alphabet.charAt(i);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class KeyboardAdapter extends BaseAdapter
     @Override
     public View getView(int i, View convertView, ViewGroup parent)
     {
-        Button button = null;
+        Button button;
         if (convertView == null)
         {
             button = new Button(parent.getContext());
