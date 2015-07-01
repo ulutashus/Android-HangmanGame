@@ -11,14 +11,14 @@
     <dimen name="menu_newgame_height">40dp</dimen>
     <dimen name="menu_highscores_height">25dp</dimen>
     <dimen name="menu_exit_height">30dp</dimen>
-    <dimen name="menu_button_margin">25dp</dimen>
+    <dimen name="menu_button_margin">35dp</dimen>
     <!-- Game -->
     <dimen name="questionTextSize">25dp</dimen>
     <dimen name="hangmanMarginTop">10dp</dimen>
-    <dimen name="questionMaxHeight">130dp</dimen>
+    <dimen name="questionMaxHeight">140dp</dimen>
     <dimen name="questionMarginTop">10dp</dimen>
     <dimen name="scoreTextSize">40dp</dimen>
-    <dimen name="hangman_height">120dp</dimen>
+    <dimen name="hangman_height">180dp</dimen>
     <dimen name="hangmanMarginRight">20dp</dimen>
     <dimen name="keyboardHeight">210dp</dimen>
     <dimen name="keyboardMarginTop">20dp</dimen>
