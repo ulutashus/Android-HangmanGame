@@ -86,7 +86,7 @@
     <LinearLayout
         android:id="@+id/hangmanAndScoreTable"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/hangman_height"
         android:layout_below="@id/questionPanel"
         android:layout_marginTop="@dimen/hangmanMarginTop"
         android:gravity="center"
