@@ -92,14 +92,6 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <!-- New High ScoreManager -->
-        <ImageView
-            android:id="@+id/rekor"
-            android:layout_width="150dp"
-            android:layout_height="120dp"
-            android:src="@drawable/cup"
-            android:visibility="gone"/>
-
         <!-- Hangman -->
         <ImageView
             android:id="@+id/cinali"
@@ -181,6 +173,17 @@
                 android:textSize="@dimen/scoreTextSize"/>
         </FrameLayout>
     </LinearLayout>
+
+    <!-- New High Score -->
+    <ImageView
+        android:id="@+id/rekor"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cup"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_below="@id/hangmanAndScoreTable"/>
 
     <!-- Continue -->
     <Button

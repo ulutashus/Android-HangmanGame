@@ -2,6 +2,8 @@ package ulutashus.hangman.views;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.GridView;
@@ -130,6 +132,8 @@ public class GameScreenView extends ulutashus.androidmvc.View<GameController>
 
     private void onMoveCountChanged(Integer moveCount)
     {
+        Animation fadin = AnimationUtils.loadAnimation(GameScreenView.this, R.anim.fade_in);
+        narrowTree_Image.setAnimation(fadin);
         narrowTree_Image.setImageResource(R.drawable.adama + moveCount);
     }
 
@@ -168,7 +172,6 @@ public class GameScreenView extends ulutashus.androidmvc.View<GameController>
             if (gameStatus == GameStatus.NewRecord)
             {
                 high_Image.setVisibility(ImageView.VISIBLE);
-                narrowTree_Image.setVisibility(ImageView.GONE);
             }
         }
         // hide keyboard
